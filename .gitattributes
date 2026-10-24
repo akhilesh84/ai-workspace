@@ -1,0 +1,25 @@
+# Normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Markdown, JSON, Python: always LF
+*.md  text eol=lf
+*.json text eol=lf
+*.py  text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.sh   text eol=lf
+
+# Binary files: do not touch
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.whl  binary
+*.gz   binary
+*.zip  binary
+
+# Symlinks: preserve as symlinks (git tracks them natively on Unix/macOS)
+# On Windows, enable Developer Mode or use `git config core.symlinks true`
+latest -text

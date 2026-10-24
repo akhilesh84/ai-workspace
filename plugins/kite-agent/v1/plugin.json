@@ -1,0 +1,13 @@
+{
+  "name": "kite-agent",
+  "version": "1.0.0",
+  "description": "Zerodha Kite portfolio analysis agent with ETF look-through decomposition",
+  "author": "akhilesh",
+  "skills": [
+    "skills/kite-portfolio-lookthrough/latest"
+  ],
+  "prompts": [],
+  "mcp_servers": [
+    "kite"
+  ]
+}

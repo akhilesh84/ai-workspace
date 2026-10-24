@@ -1,0 +1,13 @@
+{
+  "name": "agent-template",
+  "version": "1.0.0",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.2,
+  "skills": [
+    "skills/<skill-name>/latest"
+  ],
+  "mcp_servers": [
+    "<server-name>"
+  ],
+  "system_prompt": "system_prompt.md"
+}

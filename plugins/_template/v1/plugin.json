@@ -1,0 +1,15 @@
+{
+  "name": "plugin-template",
+  "version": "1.0.0",
+  "description": "One-line description of this plugin's purpose",
+  "author": "",
+  "skills": [
+    "skills/<skill-name>/latest"
+  ],
+  "prompts": [
+    "prompts/<prompt-name>/latest"
+  ],
+  "mcp_servers": [
+    "<server-name>"
+  ]
+}
