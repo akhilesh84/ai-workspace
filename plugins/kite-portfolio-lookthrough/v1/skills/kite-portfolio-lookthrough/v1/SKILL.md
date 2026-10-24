@@ -48,8 +48,9 @@ This skill guides the agent in pulling a user's Zerodha Kite stock portfolio, ve
    # or
    python3 <path-to-skill>/scripts/decompose_portfolio.py <path_to_holdings_json>
    ```
+   *Note: On every run, the script automatically queries the live exchange feeds (NSE archives) via [`update_constituents.py`](./scripts/update_constituents.py) to detect index rebalances, verify constituent freshness, and adjust for price movements, eliminating the risk of using stale index weights.*
 2. **Decomposition Rules**:
-   - **Equity Index ETFs** (e.g., `NV20`, `NIFTYIETF`, `NIFTYBEES`, `BANKBEES`, `ITBEES`): Replaced proportionally by their constituent stocks according to the underlying benchmark index weights loaded from [`references/etf_index_constituents.json`](./references/etf_index_constituents.json).
+   - **Equity Index ETFs** (e.g., `NV20`, `NIFTYIETF`, `NIFTYBEES`, `BANKBEES`, `ITBEES`): Replaced proportionally by their constituent stocks according to the underlying benchmark index weights loaded and dynamically refreshed from [`references/etf_index_constituents.json`](./references/etf_index_constituents.json).
    - **Commodity ETFs** (e.g., `GOLDIETF`, `GOLDBEES`, `SILVERIETF`, `SILVERBEES`): **Must not** be decomposed into equity constituents. They are preserved and represented as commodity assets as-is.
    - **Direct Stocks**: Combined with the look-through weights from the decomposed ETFs to show the true effective value and percentage weight for each company in the overall equity portfolio.
 
@@ -67,4 +68,11 @@ Present a comprehensive, formatted markdown report with:
    - Total Effective Value (₹)
    - Effective Portfolio Weight (%)
 4. **Commodity Holdings (As-Is)**: Gold and Silver ETFs separated with quantity, average price, LTP, current value, and P&L.
-5. **Key Strategic Insights**: Highlighting hidden concentration, top overweight/underweight sectors, and significant differences between direct demat holdings and true look-through exposure.
+5. **ETF to Benchmark Index Mapping (Legends Table)**:
+   - ETF Ticker Symbol (e.g., `NV20`, `NIFTYIETF`, `GOLDIETF`)
+   - Official Fund / Scheme Name
+   - Benchmark Index or Underlying Asset Tracked (e.g., `Nifty 50 Value 20 Index`, `Nifty 50 Index`, `Domestic Physical Gold Spot`)
+   - Asset Category & Classification
+   - Value in Portfolio (₹)
+   - Treatment in Analysis (Decomposed vs. Preserved as-is)
+6. **Key Strategic Insights**: Highlighting hidden concentration, top overweight/underweight sectors, and significant differences between direct demat holdings and true look-through exposure.

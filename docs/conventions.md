@@ -28,11 +28,11 @@ Clients should reference `latest` unless they need to pin to a specific version.
 
 | Item | Format | Example |
 |------|--------|---------|
-| Skill directory | `kebab-case` | `kite-portfolio-lookthrough` |
+| Skill directory | `kebab-case` | `portfolio-lookthrough` |
 | Prompt directory | `kebab-case` | `financial-analysis-system` |
-| Agent directory | `kebab-case` | `kite-agent` |
+| Agent directory | `kebab-case` | `analyst-agent` |
 | MCP server directory | `kebab-case` | `market-data-server` |
-| Plugin directory | `kebab-case` | `kite-agent` |
+| Plugin directory | `kebab-case` | `analyst-bundle` |
 | Python package | `snake_case` | `market_data_server` |
 
 ---

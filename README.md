@@ -54,4 +54,6 @@ Every skill, prompt, agent, MCP server, and plugin is versioned with `v1/`, `v2/
 
 | Plugin | Description |
 |--------|-------------|
-| [`kite-agent`](plugins/kite-agent/latest/) | Zerodha Kite portfolio look-through analysis |
+| [`kite-portfolio-lookthrough`](plugins/kite-portfolio-lookthrough/latest/) | Zerodha Kite portfolio look-through analysis and ETF decomposition |
+
+

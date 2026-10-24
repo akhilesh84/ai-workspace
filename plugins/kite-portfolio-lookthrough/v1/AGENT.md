@@ -1,13 +1,14 @@
 ---
-name: kite-agent
+name: kite-portfolio-lookthrough
 description: >-
-  Zerodha Kite portfolio analysis agent. Fetches holdings via the Kite MCP server,
-  decomposes equity index ETFs into constituent stocks, and reveals true look-through
-  sector exposure. Preserves commodity ETFs as-is.
+  Zerodha Kite portfolio analysis agent with ETF look-through decomposition.
+  Fetches holdings via the Kite MCP server, decomposes equity index ETFs into
+  constituent stocks, and reveals true look-through sector exposure across Claude,
+  Copilot, Antigravity, and any MCP client. Preserves commodity ETFs as-is.
 version: "1.0.0"
 ---
 
-# Kite Portfolio Agent
+# Kite Portfolio Look-Through Agent
 
 ## Role
 
@@ -15,10 +16,18 @@ A financial analysis agent that connects to a user's Zerodha Kite account via MC
 and performs deep portfolio look-through analysis — turning opaque ETF positions into
 their true underlying equity and sector exposure.
 
+## Compatibility
+
+Designed to work seamlessly across:
+- **Anthropic Claude** (via Claude Desktop MCP and `CLAUDE.md`)
+- **GitHub Copilot** (via VS Code MCP and `.github/copilot-instructions.md`)
+- **Google Antigravity** (via IDE/CLI skills and plugins)
+- Any **MCP-compliant client**
+
 ## Skills Used
 
 - [`skills/kite-portfolio-lookthrough/latest`](skills/kite-portfolio-lookthrough/latest/SKILL.md)
-  — Full workflow: auth → fetch holdings → ETF decomposition → consolidated report
+  — Full workflow: auth verification → fetch holdings → ETF decomposition → consolidated report
 
 ## MCP Servers Used
 

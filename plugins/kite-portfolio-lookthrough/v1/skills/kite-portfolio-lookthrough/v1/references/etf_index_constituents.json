@@ -1,0 +1,342 @@
+{
+  "commodity_etfs": [
+    "GOLDIETF",
+    "GOLDBEES",
+    "GOLDSHARE",
+    "HDFCGOLD",
+    "KOTAKGOLD",
+    "AXISGOLD",
+    "SILVERIETF",
+    "SILVERBEES",
+    "SILVER",
+    "HDFCSILVER",
+    "KOTAKSILVER",
+    "AXISSILVER"
+  ],
+  "equity_indices": {
+    "NIFTY_50_VALUE_20": {
+      "tracked_by": [
+        "NV20",
+        "ICICINV20",
+        "NETFNV20",
+        "KOTAKNV20"
+      ],
+      "description": "Nifty 50 Value 20 Index",
+      "weights": {
+        "HDFCBANK": 14.74,
+        "RELIANCE": 12.16,
+        "ICICIBANK": 11.35,
+        "SBIN": 9.11,
+        "AXISBANK": 6.42,
+        "ITC": 5.58,
+        "INFY": 5.0,
+        "ONGC": 4.53,
+        "TCS": 4.2,
+        "KOTAKBANK": 4.0,
+        "NTPC": 3.1,
+        "COALINDIA": 3.0,
+        "TATASTEEL": 2.8,
+        "POWERGRID": 2.26,
+        "HINDALCO": 2.21,
+        "GRASIM": 2.07,
+        "BAJAJ-AUTO": 1.82,
+        "WIPRO": 1.8,
+        "TECHM": 1.45,
+        "HEROMOTOCO": 1.4,
+        "DRREDDY": 1.0
+      }
+    },
+    "NIFTY_50": {
+      "tracked_by": [
+        "NIFTYIETF",
+        "NIFTYBEES",
+        "SETFNIF50",
+        "HDFCNIFTY",
+        "ICICINIFTY",
+        "UTINIFTETF"
+      ],
+      "description": "Nifty 50 Benchmark Index",
+      "weights": {
+        "ADANIENT": 0.9,
+        "ADANIPORTS": 0.85,
+        "APOLLOHOSP": 0.6,
+        "ASIANPAINT": 1.2,
+        "AXISBANK": 3.4,
+        "BSE": 1.23,
+        "BAJAJ-AUTO": 0.8,
+        "BAJFINANCE": 2.0,
+        "BAJAJFINSV": 1.5,
+        "BEL": 0.85,
+        "BHARTIARTL": 5.15,
+        "CIPLA": 0.6,
+        "COALINDIA": 1.1,
+        "DRREDDY": 0.6,
+        "EICHERMOT": 0.6,
+        "ETERNAL": 1.23,
+        "GRASIM": 0.8,
+        "HCLTECH": 1.8,
+        "HDFCBANK": 10.5,
+        "HDFCLIFE": 1.23,
+        "HINDALCO": 0.9,
+        "HINDUNILVR": 2.2,
+        "ICICIBANK": 8.7,
+        "ITC": 2.8,
+        "INFY": 3.5,
+        "INDIGO": 1.23,
+        "JSWSTEEL": 0.9,
+        "JIOFIN": 1.23,
+        "KOTAKBANK": 2.9,
+        "LT": 4.3,
+        "M&M": 2.5,
+        "MARUTI": 1.4,
+        "MAXHEALTH": 1.23,
+        "NTPC": 1.7,
+        "NESTLEIND": 0.55,
+        "ONGC": 1.0,
+        "POWERGRID": 1.6,
+        "RELIANCE": 8.0,
+        "SBILIFE": 0.65,
+        "SHRIRAMFIN": 0.45,
+        "SBIN": 3.75,
+        "SUNPHARMA": 2.0,
+        "TCS": 2.4,
+        "TATACONSUM": 0.5,
+        "TMPV": 1.23,
+        "TATASTEEL": 1.1,
+        "TECHM": 0.75,
+        "TITAN": 1.3,
+        "TRENT": 1.0,
+        "ULTRACEMCO": 1.3
+      },
+      "last_updated": "2026-10-24T23:17:08Z",
+      "source": "NSE Live Feed (Rebalanced 2026-10-24)",
+      "last_verified": "2026-10-24T23:50:16Z"
+    },
+    "NIFTY_BANK": {
+      "tracked_by": [
+        "BANKBEES",
+        "BANKIETF",
+        "SETFNIFBK",
+        "KOTAKBKETF"
+      ],
+      "description": "Nifty Bank Index",
+      "weights": {
+        "AUBANK": 2.0,
+        "AXISBANK": 9.5,
+        "BANKBARODA": 3.0,
+        "CANBK": 0.5,
+        "FEDERALBNK": 2.0,
+        "HDFCBANK": 29.5,
+        "ICICIBANK": 23.5,
+        "IDFCFIRSTB": 1.5,
+        "INDUSINDBK": 5.5,
+        "KOTAKBANK": 9.0,
+        "PNB": 2.5,
+        "SBIN": 10.5,
+        "UNIONBANK": 0.5,
+        "YESBANK": 0.5
+      },
+      "last_updated": "2026-10-24T23:17:08Z",
+      "source": "NSE Live Feed (Rebalanced 2026-10-24)",
+      "last_verified": "2026-10-24T23:50:16Z"
+    },
+    "NIFTY_IT": {
+      "tracked_by": [
+        "ITBEES",
+        "ITIETF",
+        "AXISIT"
+      ],
+      "description": "Nifty IT Sector Index",
+      "weights": {
+        "COFORGE": 4.0,
+        "HCLTECH": 10.5,
+        "INFY": 25.5,
+        "LTM": 4.75,
+        "MPHASIS": 3.0,
+        "OFSS": 4.75,
+        "PERSISTENT": 4.5,
+        "TCS": 26.5,
+        "TECHM": 8.0,
+        "WIPRO": 8.5
+      },
+      "last_updated": "2026-10-24T23:17:08Z",
+      "source": "NSE Live Feed (Rebalanced 2026-10-24)",
+      "last_verified": "2026-10-24T23:50:16Z"
+    }
+  },
+  "sector_map": {
+    "HDFCBANK": "Financial Services",
+    "ICICIBANK": "Financial Services",
+    "KOTAKBANK": "Financial Services",
+    "SBIN": "Financial Services",
+    "AXISBANK": "Financial Services",
+    "BAJFINANCE": "Financial Services",
+    "BAJAJFINSV": "Financial Services",
+    "SHRIRAMFIN": "Financial Services",
+    "INDUSINDBK": "Financial Services",
+    "SBILIFE": "Financial Services",
+    "BANKBARODA": "Financial Services",
+    "PNB": "Financial Services",
+    "AUBANK": "Financial Services",
+    "FEDERALBNK": "Financial Services",
+    "IDFCFIRSTB": "Financial Services",
+    "BANDHANBNK": "Financial Services",
+    "POWERGRID": "Power",
+    "TATAPOWER": "Power & Utilities",
+    "NTPC": "Power",
+    "ITC": "Fast Moving Consumer Goods",
+    "HINDUNILVR": "Fast Moving Consumer Goods",
+    "NESTLEIND": "Fast Moving Consumer Goods",
+    "BRITANNIA": "Fast Moving Consumer Goods (FMCG)",
+    "TATACONSUM": "Fast Moving Consumer Goods",
+    "TITAN": "Consumer Durables",
+    "ASIANPAINT": "Consumer Durables",
+    "TRENT": "Consumer Services",
+    "COALINDIA": "Oil Gas & Consumable Fuels",
+    "TATASTEEL": "Metals & Mining",
+    "HINDALCO": "Metals & Mining",
+    "JSWSTEEL": "Metals & Mining",
+    "ADANIENT": "Metals & Mining",
+    "INFY": "Information Technology",
+    "TCS": "Information Technology",
+    "HCLTECH": "Information Technology",
+    "WIPRO": "Information Technology",
+    "TECHM": "Information Technology",
+    "LTIM": "Information Technology",
+    "PERSISTENT": "Information Technology",
+    "COFORGE": "Information Technology",
+    "MPHASIS": "Information Technology",
+    "LTTS": "Information Technology",
+    "RELIANCE": "Oil Gas & Consumable Fuels",
+    "ONGC": "Oil Gas & Consumable Fuels",
+    "BPCL": "Oil, Gas & Consumable Fuels",
+    "BAJAJ-AUTO": "Automobile and Auto Components",
+    "HEROMOTOCO": "Automobile & Auto Components",
+    "TMPV": "Automobile and Auto Components",
+    "TATAMOTORS": "Automobile & Auto Components",
+    "M&M": "Automobile and Auto Components",
+    "MARUTI": "Automobile and Auto Components",
+    "EICHERMOT": "Automobile and Auto Components",
+    "LT": "Construction",
+    "BEL": "Capital Goods",
+    "ADANIPORTS": "Services",
+    "GESHIP": "Services & Logistics",
+    "GRASIM": "Construction Materials",
+    "ULTRACEMCO": "Construction Materials",
+    "DRREDDY": "Healthcare",
+    "SUNPHARMA": "Healthcare",
+    "CIPLA": "Healthcare",
+    "APOLLOHOSP": "Healthcare",
+    "DIVISLAB": "Healthcare & Pharma",
+    "BHARTIARTL": "Telecommunication",
+    "BSE": "Financial Services",
+    "ETERNAL": "Consumer Services",
+    "HDFCLIFE": "Financial Services",
+    "INDIGO": "Services",
+    "JIOFIN": "Financial Services",
+    "MAXHEALTH": "Healthcare",
+    "CANBK": "Financial Services",
+    "UNIONBANK": "Financial Services",
+    "YESBANK": "Financial Services",
+    "LTM": "Information Technology",
+    "OFSS": "Information Technology"
+  },
+  "etf_directory": {
+    "NV20": {
+      "fund_name": "Kotak Nifty 50 Value 20 ETF",
+      "tracked_index": "Nifty 50 Value 20 Index",
+      "category": "Equity (Smart Beta / Value)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "ICICINV20": {
+      "fund_name": "ICICI Prudential Nifty 50 Value 20 ETF",
+      "tracked_index": "Nifty 50 Value 20 Index",
+      "category": "Equity (Smart Beta / Value)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "NETFNV20": {
+      "fund_name": "Nippon India ETF Nifty 50 Value 20",
+      "tracked_index": "Nifty 50 Value 20 Index",
+      "category": "Equity (Smart Beta / Value)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "KOTAKNV20": {
+      "fund_name": "Kotak Nifty 50 Value 20 ETF",
+      "tracked_index": "Nifty 50 Value 20 Index",
+      "category": "Equity (Smart Beta / Value)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "NIFTYIETF": {
+      "fund_name": "ICICI Prudential Nifty 50 ETF",
+      "tracked_index": "Nifty 50 Index",
+      "category": "Equity (Broad Market Large-Cap)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "NIFTYBEES": {
+      "fund_name": "Nippon India ETF Nifty 50 BeES",
+      "tracked_index": "Nifty 50 Index",
+      "category": "Equity (Broad Market Large-Cap)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "SETFNIF50": {
+      "fund_name": "SBI ETF Nifty 50",
+      "tracked_index": "Nifty 50 Index",
+      "category": "Equity (Broad Market Large-Cap)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "BANKBEES": {
+      "fund_name": "Nippon India ETF Nifty Bank BeES",
+      "tracked_index": "Nifty Bank Index",
+      "category": "Equity (Banking Sector)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "BANKIETF": {
+      "fund_name": "ICICI Prudential Nifty Bank ETF",
+      "tracked_index": "Nifty Bank Index",
+      "category": "Equity (Banking Sector)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "ITBEES": {
+      "fund_name": "Nippon India ETF Nifty IT",
+      "tracked_index": "Nifty IT Index",
+      "category": "Equity (Technology Sector)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "ITIETF": {
+      "fund_name": "ICICI Prudential Nifty IT ETF",
+      "tracked_index": "Nifty IT Index",
+      "category": "Equity (Technology Sector)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "JUNIORBEES": {
+      "fund_name": "Nippon India ETF Nifty Next 50 Junior BeES",
+      "tracked_index": "Nifty Next 50 Index",
+      "category": "Equity (Large-Cap Next 50)",
+      "benchmark_provider": "NSE Indices"
+    },
+    "GOLDIETF": {
+      "fund_name": "ICICI Prudential Gold ETF",
+      "tracked_index": "Domestic Price of Physical Gold",
+      "category": "Commodity (Precious Metals - Gold)",
+      "benchmark_provider": "Domestic Gold Spot (LBMA/MCX)"
+    },
+    "GOLDBEES": {
+      "fund_name": "Nippon India ETF Gold BeES",
+      "tracked_index": "Domestic Price of Physical Gold",
+      "category": "Commodity (Precious Metals - Gold)",
+      "benchmark_provider": "Domestic Gold Spot (LBMA/MCX)"
+    },
+    "SILVERBEES": {
+      "fund_name": "Nippon India ETF Silver BeES",
+      "tracked_index": "Domestic Price of Physical Silver",
+      "category": "Commodity (Precious Metals - Silver)",
+      "benchmark_provider": "Domestic Silver Spot (LBMA/MCX)"
+    },
+    "SILVERIETF": {
+      "fund_name": "ICICI Prudential Silver ETF",
+      "tracked_index": "Domestic Price of Physical Silver",
+      "category": "Commodity (Precious Metals - Silver)",
+      "benchmark_provider": "Domestic Silver Spot (LBMA/MCX)"
+    }
+  }
+}

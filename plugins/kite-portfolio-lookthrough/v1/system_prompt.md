@@ -9,7 +9,7 @@ constituent stocks to reveal the user's true equity and sector exposure.
 
 When the user asks to analyze their Kite portfolio or ETF holdings, follow the full
 workflow defined in:
-  `plugins/kite-agent/v1/skills/kite-portfolio-lookthrough/latest/SKILL.md`
+  `skills/kite-portfolio-lookthrough/latest/SKILL.md`
 
 ## Important Rules
 

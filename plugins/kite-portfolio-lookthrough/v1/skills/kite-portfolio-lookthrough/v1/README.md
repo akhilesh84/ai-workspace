@@ -8,9 +8,10 @@ An **agent-agnostic, open-standard** skill and toolset for analyzing Zerodha Kit
 
 This skill is designed without proprietary coupling to any single AI assistant:
 1. **Tool Interface:** Uses the open **Model Context Protocol (MCP)** (`kite` server: `get_profile`, `login`, `get_holdings`).
-2. **Business Logic:** Pure Python 3 standard library script (`scripts/decompose_portfolio.py`), requiring **zero third-party dependencies**.
-3. **Data & Weights:** Plain JSON reference file (`references/etf_index_constituents.json`) containing index constituents, weights, sector mappings, and commodity filters.
-4. **Agent Instructions:** Standard Markdown workflow file (`SKILL.md`) compatible with Claude, GitHub Copilot, Antigravity, or Cursor.
+2. **Dynamic Live Sync:** Automatically pulls live official constituent and sector updates from the National Stock Exchange of India (NSE) feeds on every execution via [`scripts/update_constituents.py`](./scripts/update_constituents.py), ensuring data is never stale.
+3. **Business Logic:** Pure Python 3 standard library scripts (`scripts/decompose_portfolio.py`, `scripts/update_constituents.py`), requiring **zero third-party dependencies**.
+4. **Data & Weights:** Plain JSON reference file (`references/etf_index_constituents.json`) containing index constituents, weights, sector mappings, and commodity filters.
+5. **Agent Instructions:** Standard Markdown workflow file (`SKILL.md`) compatible with Claude, GitHub Copilot, Antigravity, or Cursor.
 
 ---
 
@@ -78,7 +79,8 @@ kite-portfolio-lookthrough/
 ├── README.md                              # Multi-agent setup & usage guide
 ├── SKILL.md                               # Universal agent workflow instructions
 ├── scripts/
-│   └── decompose_portfolio.py             # Pure Python 3 decomposition engine
+│   ├── decompose_portfolio.py             # Pure Python 3 decomposition engine with legends mapping
+│   └── update_constituents.py             # Live exchange constituent & rebalance sync engine
 └── references/
-    └── etf_index_constituents.json        # Index constituents, weights, sector mappings
+    └── etf_index_constituents.json        # Index constituents, weights, sector mappings & ETF directory
 ```

@@ -2,10 +2,10 @@
 
 ## Google Antigravity (IDE / CLI)
 
-1. Copy or symlink the skill into your Antigravity config:
+1. Copy or symlink a skill into your Antigravity config:
    ```bash
-   ln -s ~/MyDevArea/ai-workspace/plugins/kite-agent/latest/skills/kite-portfolio-lookthrough/latest \
-     ~/.gemini/config/skills/kite-portfolio-lookthrough
+   ln -s ~/MyDevArea/ai-workspace/skills/<skill-name>/latest \
+     ~/.gemini/config/skills/<skill-name>
    ```
 2. Merge `configs/antigravity/mcp_config.json` into `~/.gemini/config/mcp_config.json`.
 
@@ -18,8 +18,8 @@
 3. Restart Claude Desktop
 4. In your project's `CLAUDE.md`, add:
    ```markdown
-   When asked to analyze Zerodha portfolio or ETF look-through exposure,
-   follow the instructions in `plugins/kite-agent/latest/skills/kite-portfolio-lookthrough/latest/SKILL.md`.
+   When asked to use a specific skill or capability,
+   follow the instructions in `skills/<skill-name>/latest/SKILL.md`.
    ```
 
 ---
@@ -30,8 +30,8 @@
 2. Merge `configs/copilot/mcp.json` into your VS Code MCP config.
 3. In `.github/copilot-instructions.md` add:
    ```markdown
-   When analyzing Kite portfolios, follow:
-   `plugins/kite-agent/latest/skills/kite-portfolio-lookthrough/latest/SKILL.md`
+   When executing tasks for a specific skill, follow:
+   `skills/<skill-name>/latest/SKILL.md`
    ```
 
 ---

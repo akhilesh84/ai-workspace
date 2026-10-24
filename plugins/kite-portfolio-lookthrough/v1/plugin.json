@@ -1,0 +1,13 @@
+{
+  "name": "kite-portfolio-lookthrough",
+  "version": "1.0.0",
+  "description": "Zerodha Kite portfolio analysis and ETF look-through decomposition for Claude, Copilot, Antigravity, and MCP-compatible agents",
+  "author": "akhilesh",
+  "skills": [
+    "skills/kite-portfolio-lookthrough/latest"
+  ],
+  "prompts": [],
+  "mcp_servers": [
+    "kite"
+  ]
+}
