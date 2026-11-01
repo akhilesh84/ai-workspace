@@ -9,7 +9,9 @@ Features:
 
 import os
 import time
+from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Any, Literal
 from dotenv import load_dotenv
 from litellm import completion
 from litellm.exceptions import RateLimitError, ServiceUnavailableError
@@ -18,11 +20,65 @@ from litellm.exceptions import RateLimitError, ServiceUnavailableError
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
 
-def call_llm(messages, primary_model="gemini/gemini-3.5-flash-lite", max_retries=3):
+@dataclass
+class ChatMessage:
+    """Typed representation of an individual chat turn."""
+    role: Literal["system", "user", "assistant"]
+    content: str
+
+    def to_dict(self) -> dict[str, str]:
+        """Converts the message to a dictionary expected by LiteLLM."""
+        return {"role": self.role, "content": self.content}
+
+
+@dataclass
+class Conversation:
+    """Typed container representing conversation history."""
+    system_prompt: str = "You are a helpful assistant."
+    messages: list[ChatMessage] = field(default_factory=list)
+
+    def __post_init__(self) -> None:
+        if not self.messages and self.system_prompt:
+            self.add_system(self.system_prompt)
+
+    def add_message(self, role: Literal["system", "user", "assistant"], content: str) -> ChatMessage:
+        """Appends a new typed message to the conversation."""
+        msg = ChatMessage(role=role, content=content)
+        self.messages.append(msg)
+        return msg
+
+    def add_user(self, content: str) -> ChatMessage:
+        """Appends a user message to the conversation."""
+        return self.add_message("user", content)
+
+    def add_assistant(self, content: str) -> ChatMessage:
+        """Appends an assistant message to the conversation."""
+        return self.add_message("assistant", content)
+
+    def add_system(self, content: str) -> ChatMessage:
+        """Appends a system message to the conversation."""
+        return self.add_message("system", content)
+
+    def to_payload(self) -> list[dict[str, str]]:
+        """Exports messages as a list of dictionaries for LiteLLM completion calls."""
+        return [msg.to_dict() for msg in self.messages]
+
+    def __len__(self) -> int:
+        return len(self.messages)
+
+    def __iter__(self):
+        return iter(self.messages)
+
+
+def call_llm(
+    conversation: Conversation | list[ChatMessage] | list[dict[str, Any]],
+    primary_model: str = "gemini/gemini-3.5-flash-lite",
+    max_retries: int = 3,
+):
     """Calls the model with exponential backoff for 503/429 and fallback to alternate models.
 
     Args:
-        messages (list[dict]): List of message objects representing conversation history.
+        conversation: Typed Conversation, list of ChatMessage, or list of dicts representing chat history.
         primary_model (str): Primary model identifier to attempt first.
         max_retries (int): Maximum number of retry attempts per model.
 
@@ -32,6 +88,16 @@ def call_llm(messages, primary_model="gemini/gemini-3.5-flash-lite", max_retries
     Raises:
         Exception: The last encountered error if all candidate models and retries fail.
     """
+    # Normalize input to list of dicts required by LiteLLM
+    if isinstance(conversation, Conversation):
+        payload = conversation.to_payload()
+    elif isinstance(conversation, list):
+        payload = [
+            m.to_dict() if isinstance(m, ChatMessage) else m for m in conversation
+        ]
+    else:
+        payload = conversation
+
     # Candidate models to fall back through if the current one fails
     models_to_try = [
         primary_model,
@@ -48,7 +114,7 @@ def call_llm(messages, primary_model="gemini/gemini-3.5-flash-lite", max_retries
         for attempt in range(1, max_retries + 1):
             try:
                 # Attempt to get a completion from the model
-                response = completion(model=model, messages=messages)
+                response = completion(model=model, messages=payload)
                 return response
             except ServiceUnavailableError as e:
                 # 503 Service Unavailable: Back off exponentially and retry
@@ -82,43 +148,38 @@ def call_llm(messages, primary_model="gemini/gemini-3.5-flash-lite", max_retries
 # Interactive Chat Session (REPL)
 # ---------------------------------------------------------------------------
 
-# Initialize conversation history with a baseline system prompt
-messages = [
-    {
-        "role": "system",
-        "content": "You are a helpful assistant."
-    }
-]
+def main() -> None:
+    """Runs the interactive command-line chat loop."""
+    # Initialize typed conversation object with a baseline system prompt
+    conversation = Conversation(system_prompt="You are a helpful assistant.")
 
-print("Chat initialized (type 'exit' or 'quit' to stop).\n")
+    print("Chat initialized (type 'exit' or 'quit' to stop).\n")
 
-# Main conversational REPL loop
-while True:
-    user_input = input("You: ")
-    # Check for exit command
-    if user_input.strip().lower() in ("exit", "quit"):
-        print("Goodbye!")
-        break
+    # Main conversational REPL loop
+    while True:
+        user_input = input("You: ")
+        # Check for exit command
+        if user_input.strip().lower() in ("exit", "quit"):
+            print("Goodbye!")
+            break
 
-    # Append user turn to conversation history
-    messages.append({
-        "role": "user",
-        "content": user_input
-    })
+        # Add user message to typed conversation object
+        conversation.add_user(user_input)
 
-    # Send multi-turn history to the LLM
-    response = call_llm(messages)
-    reply = response.choices[0].message.content
-    print("Bot:", reply)
+        # Send conversation history to the LLM
+        response = call_llm(conversation)
+        reply = response.choices[0].message.content or ""
+        print("Bot:", reply)
 
-    # Display token usage cost if available in LiteLLM metadata
-    cost = response._hidden_params.get("response_cost")
-    if cost is not None:
-        print(f"Cost: ${cost:.6f}")
+        # Display token usage cost if available in LiteLLM metadata
+        cost = response._hidden_params.get("response_cost")
+        if cost is not None:
+            print(f"Cost: ${cost:.6f}")
 
-    # Append assistant reply to conversation history for context in next turn
-    messages.append({
-        "role": "assistant",
-        "content": reply
-    })
+        # Add assistant reply to typed conversation object for context in next turn
+        conversation.add_assistant(reply)
+
+
+if __name__ == "__main__":
+    main()
 
