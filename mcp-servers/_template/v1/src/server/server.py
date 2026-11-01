@@ -9,8 +9,8 @@ load_dotenv()
 
 mcp = FastMCP(
     name="mcp-server-template",
-    description="Template MCP server. Replace with your server's description.",
 )
+
 
 register_tools(mcp)
 

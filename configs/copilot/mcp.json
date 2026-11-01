@@ -6,6 +6,15 @@
         "mcp-remote",
         "https://mcp.kite.trade/mcp"
       ]
+    },
+    "nifty-energy-basket": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/akhilesh/MyDevArea/ai-workspace/mcp-servers/nifty-energy-basket/latest",
+        "run",
+        "serve"
+      ]
     }
   }
 }

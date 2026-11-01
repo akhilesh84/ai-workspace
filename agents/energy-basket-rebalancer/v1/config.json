@@ -1,0 +1,12 @@
+{
+  "name": "energy-basket-rebalancer",
+  "version": "1.0.0",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.1,
+  "skills": [],
+  "mcp_servers": [
+    "nifty-energy-basket"
+  ],
+  "system_prompt": "system_prompt.md"
+}
+
