@@ -1,0 +1,57 @@
+{
+  "COALINDIA": {
+    "name": "Coal India Ltd",
+    "target_weight": 0.30,
+    "primary_anchor": "div_yield",
+    "tiers": {
+      "tier_1_sip": { "pe_max": 8.2, "pb_max": 2.20, "yield_min": 6.2 },
+      "tier_2_aggr": { "pe_max": 7.2, "pb_max": 1.90, "yield_min": 7.0 },
+      "tier_3_lump_sum": { "pe_max": 6.2, "pb_max": 1.65, "yield_min": 7.8 },
+      "pause_above": { "pe_min": 9.8, "pb_min": 2.75, "yield_max": 5.0 }
+    }
+  },
+  "POWERGRID": {
+    "name": "Power Grid Corp of India",
+    "target_weight": 0.25,
+    "primary_anchor": "pb",
+    "tiers": {
+      "tier_1_sip": { "pe_max": 15.5, "pb_max": 2.85, "yield_min": 3.5 },
+      "tier_2_aggr": { "pe_max": 14.0, "pb_max": 2.50, "yield_min": 4.2 },
+      "tier_3_lump_sum": { "pe_max": 12.0, "pb_max": 2.10, "yield_min": 4.8 },
+      "pause_above": { "pe_min": 18.5, "pb_min": 3.40, "yield_max": 2.8 }
+    }
+  },
+  "PETRONET": {
+    "name": "Petronet LNG Ltd",
+    "target_weight": 0.20,
+    "primary_anchor": "pe_and_pb",
+    "tiers": {
+      "tier_1_sip": { "pe_max": 11.0, "pb_max": 2.10, "yield_min": 3.4 },
+      "tier_2_aggr": { "pe_max": 9.8, "pb_max": 1.85, "yield_min": 4.0 },
+      "tier_3_lump_sum": { "pe_max": 8.5, "pb_max": 1.60, "yield_min": 4.6 },
+      "pause_above": { "pe_min": 13.5, "pb_min": 2.70, "yield_min": 2.5 }
+    }
+  },
+  "BPCL": {
+    "name": "Bharat Petroleum Corp Ltd",
+    "target_weight": 0.15,
+    "primary_anchor": "pb_only_on_troughs",
+    "tiers": {
+      "tier_1_sip": { "pe_max": 8.0, "pb_max": 1.50, "yield_min": 5.2 },
+      "tier_2_aggr": { "pe_max": 6.8, "pb_max": 1.30, "yield_min": 6.5 },
+      "tier_3_lump_sum": { "pe_max": 5.5, "pb_max": 1.10, "yield_min": 7.5 },
+      "pause_above": { "pe_min": 10.5, "pb_min": 1.85, "yield_max": 3.8 }
+    }
+  },
+  "CASTROLIND": {
+    "name": "Castrol India Ltd",
+    "target_weight": 0.10,
+    "primary_anchor": "pe",
+    "tiers": {
+      "tier_1_sip": { "pe_max": 18.5, "pb_max": 8.80, "yield_min": 4.0 },
+      "tier_2_aggr": { "pe_max": 16.5, "pb_max": 7.80, "yield_min": 4.7 },
+      "tier_3_lump_sum": { "pe_max": 14.5, "pb_max": 6.80, "yield_min": 5.4 },
+      "pause_above": { "pe_min": 22.5, "pb_min": 10.5, "yield_max": 3.2 }
+    }
+  }
+}

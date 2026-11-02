@@ -3,9 +3,15 @@
 Exposes the 5-stock energy basket valuation strategy as an MCP tool for local AI
 agents and LLM clients. Fetches live market ratios directly from exchange feeds
 to ensure valuation anchors reflect real, non-hallucinated fundamentals.
+
+Configuration parameters (weights, valuation tiers, ceilings/floors) are sourced
+dynamically from an external basket_config.json file to allow periodic updates.
 """
 
 from typing import Any, Dict, Optional, Tuple
+import json
+import os
+from pathlib import Path
 import re
 import requests
 
@@ -14,8 +20,8 @@ try:
 except ImportError:
     from mcp.server.fastmcp import FastMCP
 
-# Basket configuration mapping
-BASKET_CONFIG: Dict[str, Dict[str, Any]] = {
+# Default basket configuration used as safety fallback if config file is absent
+DEFAULT_BASKET_CONFIG: Dict[str, Dict[str, Any]] = {
     "COALINDIA": {
         "name": "Coal India Ltd",
         "target_weight": 0.30,
@@ -74,6 +80,52 @@ BASKET_CONFIG: Dict[str, Dict[str, Any]] = {
 }
 
 
+def get_basket_config_path() -> Path:
+    """Resolves the path to the external basket_config.json configuration file."""
+    # 1. Custom ENV override
+    env_path = os.getenv("BASKET_CONFIG_PATH")
+    if env_path:
+        p = Path(env_path)
+        if p.exists():
+            return p
+
+    # 2. Standard resolution order relative to this module
+    tools_dir = Path(__file__).resolve().parent
+    candidates = [
+        tools_dir.parent.parent.parent / "config" / "basket_config.json",  # v1/config/basket_config.json
+        tools_dir.parent / "config" / "basket_config.json",                # src/server/config/basket_config.json
+        tools_dir / "config" / "basket_config.json",                       # src/server/tools/config/
+        tools_dir.parent / "basket_config.json",                           # src/server/basket_config.json
+    ]
+    for c in candidates:
+        if c.exists():
+            return c
+
+    return candidates[0]
+
+
+def load_basket_config() -> Dict[str, Dict[str, Any]]:
+    """Loads and validates basket configuration from external file on disk.
+
+    Supports hot-reloading so parameter updates take effect immediately on each run.
+    """
+    config_path = get_basket_config_path()
+    if config_path.exists():
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, dict) and len(data) > 0:
+                    return data
+        except Exception:
+            pass
+
+    return DEFAULT_BASKET_CONFIG.copy()
+
+
+# Module-level variable for backward compatibility with existing imports
+BASKET_CONFIG: Dict[str, Dict[str, Any]] = load_basket_config()
+
+
 def get_fallback(ticker: str) -> Dict[str, Any]:
     """Provides fallback metrics when live feeds are unreachable."""
     mock = {
@@ -92,7 +144,6 @@ def fetch_screener_metrics(ticker: str) -> Optional[Dict[str, Any]]:
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
-    # Check consolidated then standalone URLs
     for sub in ["consolidated/", ""]:
         url = f"https://www.screener.in/company/{ticker}/{sub}"
         try:
@@ -177,9 +228,14 @@ def fetch_live_metrics(ticker: str) -> Dict[str, Any]:
     return get_fallback(ticker)
 
 
-def evaluate_signal(ticker: str, data: Dict[str, Any]) -> Tuple[str, float, str]:
+def evaluate_signal(
+    ticker: str,
+    data: Dict[str, Any],
+    cfg_map: Optional[Dict[str, Any]] = None
+) -> Tuple[str, float, str]:
     """Evaluates valuation buy-zones and returns the execution signal, multiplier, and notes."""
-    cfg = BASKET_CONFIG[ticker]
+    config = cfg_map if cfg_map is not None else load_basket_config()
+    cfg = config[ticker]
     tiers = cfg["tiers"]
     pe, pb, dy = data["pe"], data["pb"], data["div_yield"]
     anchor = cfg["primary_anchor"]
@@ -218,16 +274,20 @@ def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
     Returns:
         Structured dictionary with status, budget, per-stock allocation tranches, and redirected paused pool.
     """
+    # Load dynamically from external config file
+    basket_cfg = load_basket_config()
+    config_file_path = str(get_basket_config_path())
+
     results = []
     total_adj_weight = 0.0
     all_live = True
 
-    for ticker, cfg in BASKET_CONFIG.items():
+    for ticker, cfg in basket_cfg.items():
         data = fetch_live_metrics(ticker)
         if not data.get("is_live", False):
             all_live = False
 
-        signal, mult, notes = evaluate_signal(ticker, data)
+        signal, mult, notes = evaluate_signal(ticker, data, cfg_map=basket_cfg)
         adj_wt = cfg["target_weight"] * mult
         total_adj_weight += adj_wt
         results.append({
@@ -253,13 +313,13 @@ def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
             paused_pool += (
                 r["raw_weight"] * monthly_budget / r["multiplier"]
                 if r["multiplier"] > 0
-                else (BASKET_CONFIG[r["ticker"]]["target_weight"] * monthly_budget)
+                else (basket_cfg[r["ticker"]]["target_weight"] * monthly_budget)
             )
         else:
             norm_wt = (
                 r["raw_weight"] / total_adj_weight
                 if total_adj_weight > 0
-                else BASKET_CONFIG[r["ticker"]]["target_weight"]
+                else basket_cfg[r["ticker"]]["target_weight"]
             )
             tranche = round(norm_wt * monthly_budget, 2)
             allocations[r["ticker"]] = {
@@ -281,6 +341,7 @@ def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
         "status": "success",
         "monthly_budget_inr": monthly_budget,
         "is_live_data": all_live,
+        "config_source": config_file_path,
         "allocations": allocations,
         "paused_pool_redirected_inr": round(paused_pool, 2)
     }
