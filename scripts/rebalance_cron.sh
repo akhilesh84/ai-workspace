@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # rebalance_cron.sh
 # Headless script for executing energy basket rebalancing via OS crontab or command line.
+#
+# Crontab schedule (10:15 AM Monday to Friday):
+# 15 10 * * 1-5 /Users/akhilesh/MyDevArea/ai-workspace/scripts/rebalance_cron.sh >> /tmp/energy_basket_rebalance.log 2>&1
 
 set -euo pipefail
 

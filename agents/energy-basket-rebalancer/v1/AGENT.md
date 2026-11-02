@@ -31,7 +31,7 @@ The **Energy Basket Rebalancer** is a specialized quantitative investment resear
 
 ## Activation
 
-- **Scheduled Automation:** Scheduled via cron sidecar (`sidecar.json`) on the 1st of every month at 9:00 AM IST.
+- **Scheduled Automation:** Scheduled via cron sidecar (`sidecar.json`) at 10:15 AM IST every weekday (Monday through Friday).
 - **Manual Invocation:** Triggered via chat prompt:
   > *"Run the evaluate_energy_basket tool with a ₹50,000 monthly budget and summarize the rebalanced tranches."*
 
