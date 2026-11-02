@@ -129,11 +129,11 @@ BASKET_CONFIG: Dict[str, Dict[str, Any]] = load_basket_config()
 def get_fallback(ticker: str) -> Dict[str, Any]:
     """Provides fallback metrics when live feeds are unreachable."""
     mock = {
-        "COALINDIA":  {"price": 435.0, "pe": 8.1,  "pb": 2.12, "div_yield": 6.35},
-        "POWERGRID":  {"price": 325.0, "pe": 15.1, "pb": 2.78, "div_yield": 3.62},
-        "PETRONET":   {"price": 315.0, "pe": 10.6, "pb": 1.98, "div_yield": 3.48},
-        "BPCL":       {"price": 310.0, "pe": 7.3,  "pb": 1.32, "div_yield": 5.80},
-        "CASTROLIND": {"price": 230.0, "pe": 18.1, "pb": 8.50, "div_yield": 4.15}
+        "COALINDIA":  {"price": 0.0, "pe": 8.1,  "pb": 2.12, "div_yield": 6.35},
+        "POWERGRID":  {"price": 0.0, "pe": 15.1, "pb": 2.78, "div_yield": 3.62},
+        "PETRONET":   {"price": 0.0, "pe": 10.6, "pb": 1.98, "div_yield": 3.48},
+        "BPCL":       {"price": 0.0, "pe": 7.3,  "pb": 1.32, "div_yield": 5.80},
+        "CASTROLIND": {"price": 0.0, "pe": 18.1, "pb": 8.50, "div_yield": 4.15}
     }
     fb = mock.get(ticker, {"price": 100.0, "pe": 10.0, "pb": 2.0, "div_yield": 4.0})
     return {**fb, "is_live": False, "source": "static_fallback"}
