@@ -1,10 +1,12 @@
 """Energy Basket Valuation Tool.
 
 Exposes the 5-stock energy basket valuation strategy as an MCP tool for local AI
-agents and LLM clients.
+agents and LLM clients. Fetches live market ratios directly from exchange feeds
+to ensure valuation anchors reflect real, non-hallucinated fundamentals.
 """
 
-from typing import Any, Dict, Tuple
+from typing import Any, Dict, Optional, Tuple
+import re
 import requests
 
 try:
@@ -72,7 +74,7 @@ BASKET_CONFIG: Dict[str, Dict[str, Any]] = {
 }
 
 
-def get_fallback(ticker: str) -> Dict[str, float]:
+def get_fallback(ticker: str) -> Dict[str, Any]:
     """Provides fallback metrics when live feeds are unreachable."""
     mock = {
         "COALINDIA":  {"price": 435.0, "pe": 8.1,  "pb": 2.12, "div_yield": 6.35},
@@ -81,14 +83,55 @@ def get_fallback(ticker: str) -> Dict[str, float]:
         "BPCL":       {"price": 310.0, "pe": 7.3,  "pb": 1.32, "div_yield": 5.80},
         "CASTROLIND": {"price": 230.0, "pe": 18.1, "pb": 8.50, "div_yield": 4.15}
     }
-    return mock.get(ticker, {"price": 100.0, "pe": 10.0, "pb": 2.0, "div_yield": 4.0})
+    fb = mock.get(ticker, {"price": 100.0, "pe": 10.0, "pb": 2.0, "div_yield": 4.0})
+    return {**fb, "is_live": False, "source": "static_fallback"}
 
 
-def fetch_yahoo_metrics(ticker: str) -> Dict[str, float]:
-    """Fetches key valuation metrics from Yahoo Finance with fallback support."""
+def fetch_screener_metrics(ticker: str) -> Optional[Dict[str, Any]]:
+    """Fetches audited live valuation ratios directly from Screener.in."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    # Check consolidated then standalone URLs
+    for sub in ["consolidated/", ""]:
+        url = f"https://www.screener.in/company/{ticker}/{sub}"
+        try:
+            r = requests.get(url, headers=headers, timeout=5)
+            if r.status_code == 200:
+                top = re.search(r'<ul id="top-ratios"[^>]*>(.*?)</ul>', r.text, re.DOTALL)
+                if top:
+                    items = re.findall(
+                        r'<span class="name">\s*([^<]+?)\s*</span>.*?<span class="number">\s*([^<]+?)\s*</span>',
+                        top.group(1),
+                        re.DOTALL,
+                    )
+                    ratios = {k.strip(): v.strip().replace(",", "") for k, v in items}
+                    if "Current Price" in ratios and "Stock P/E" in ratios:
+                        price = float(ratios.get("Current Price", 0) or 0)
+                        pe = float(ratios.get("Stock P/E", 0) or 0)
+                        bv = float(ratios.get("Book Value", 0) or 0)
+                        pb = round(price / bv, 2) if bv > 0 else 0.0
+                        dy = float(ratios.get("Dividend Yield", 0) or 0)
+                        if price > 0:
+                            return {
+                                "price": price,
+                                "pe": pe,
+                                "pb": pb,
+                                "div_yield": dy,
+                                "book_value": bv,
+                                "is_live": True,
+                                "source": "Screener.in (Live)",
+                            }
+        except Exception:
+            continue
+    return None
+
+
+def fetch_yahoo_metrics(ticker: str) -> Optional[Dict[str, Any]]:
+    """Attempts to fetch metrics from Yahoo Finance."""
     yf_symbol = f"{ticker}.NS"
-    url = f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{yf_symbol}?modules=summaryDetail,defaultKeyStatistics,financialData,price"
-    headers = {"User-Agent": "Mozilla/5.0"}
+    url = f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{yf_symbol}?modules=summaryDetail,defaultKeyStatistics,price"
+    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
     try:
         res = requests.get(url, headers=headers, timeout=5)
         if res.status_code == 200:
@@ -104,23 +147,37 @@ def fetch_yahoo_metrics(ticker: str) -> Dict[str, float]:
             dy_raw = (summary.get("dividendYield") or {}).get("raw", 0.0)
             div_yield = (dy_raw * 100.0) if dy_raw else 0.0
 
-            fallback = get_fallback(ticker)
-            if not pe or pe <= 0:
-                pe = fallback["pe"]
-            if not pb or pb <= 0:
-                pb = fallback["pb"]
-            if not div_yield:
-                div_yield = fallback["div_yield"]
-            if not price:
-                price = fallback["price"]
-
-            return {"price": price, "pe": pe, "pb": pb, "div_yield": div_yield}
+            if price > 0 and pe > 0:
+                return {
+                    "price": price,
+                    "pe": pe,
+                    "pb": pb,
+                    "div_yield": div_yield,
+                    "is_live": True,
+                    "source": "Yahoo Finance (Live)",
+                }
     except Exception:
         pass
+    return None
+
+
+def fetch_live_metrics(ticker: str) -> Dict[str, Any]:
+    """Primary live metrics resolver: tries Screener first, then Yahoo, then fallback."""
+    # 1. Primary: Screener.in (reliable exchange ratios)
+    data = fetch_screener_metrics(ticker)
+    if data:
+        return data
+
+    # 2. Secondary: Yahoo Finance
+    data = fetch_yahoo_metrics(ticker)
+    if data:
+        return data
+
+    # 3. Fallback with clear indicator
     return get_fallback(ticker)
 
 
-def evaluate_signal(ticker: str, data: Dict[str, float]) -> Tuple[str, float, str]:
+def evaluate_signal(ticker: str, data: Dict[str, Any]) -> Tuple[str, float, str]:
     """Evaluates valuation buy-zones and returns the execution signal, multiplier, and notes."""
     cfg = BASKET_CONFIG[ticker]
     tiers = cfg["tiers"]
@@ -150,7 +207,7 @@ def evaluate_signal(ticker: str, data: Dict[str, float]) -> Tuple[str, float, st
 
 
 def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
-    """Scans live Yahoo Finance fundamentals for the 5-stock quality energy basket.
+    """Scans live fundamentals for the 5-stock quality energy basket.
 
     (Coal India, Power Grid, Petronet, BPCL, Castrol), evaluates 3-tier valuation buy-zones,
     and returns structured allocation tranches and execution signals.
@@ -163,9 +220,13 @@ def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
     """
     results = []
     total_adj_weight = 0.0
+    all_live = True
 
     for ticker, cfg in BASKET_CONFIG.items():
-        data = fetch_yahoo_metrics(ticker)
+        data = fetch_live_metrics(ticker)
+        if not data.get("is_live", False):
+            all_live = False
+
         signal, mult, notes = evaluate_signal(ticker, data)
         adj_wt = cfg["target_weight"] * mult
         total_adj_weight += adj_wt
@@ -179,7 +240,9 @@ def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
             "signal": signal,
             "multiplier": mult,
             "notes": notes,
-            "raw_weight": adj_wt
+            "raw_weight": adj_wt,
+            "is_live": data.get("is_live", False),
+            "source": data.get("source", "unknown"),
         })
 
     allocations = {}
@@ -206,14 +269,18 @@ def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
                 "pb": r["pb"],
                 "div_yield": r["div_yield"],
                 "signal": r["signal"],
+                "multiplier": r["multiplier"],
                 "target_weight_pct": round(norm_wt * 100, 2),
                 "monthly_tranche_inr": tranche,
-                "notes": r["notes"]
+                "notes": r["notes"],
+                "is_live": r["is_live"],
+                "data_source": r["source"],
             }
 
     return {
         "status": "success",
         "monthly_budget_inr": monthly_budget,
+        "is_live_data": all_live,
         "allocations": allocations,
         "paused_pool_redirected_inr": round(paused_pool, 2)
     }
@@ -222,4 +289,3 @@ def evaluate_energy_basket(monthly_budget: float = 25000.0) -> dict:
 def register_tools(mcp: FastMCP) -> None:
     """Register all energy basket tools on the given FastMCP instance."""
     mcp.tool()(evaluate_energy_basket)
-
