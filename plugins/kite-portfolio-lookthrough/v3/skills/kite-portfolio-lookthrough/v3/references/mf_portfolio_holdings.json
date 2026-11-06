@@ -1,0 +1,387 @@
+{
+  "_meta": {
+    "engine_version": "v3.0.0",
+    "last_synced_at": "2026-11-06T17:02:49Z",
+    "sync_status": "UP_TO_DATE",
+    "funds_tracked": 6,
+    "updated_in_run": 0
+  },
+  "funds": {
+    "INF879O01027": {
+      "fund_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+      "amc": "PPFAS Mutual Fund",
+      "category": "Equity: Flexi Cap",
+      "exclude_from_equity_lookthrough": false,
+      "as_of_disclosure_month": "October 2026",
+      "last_verified_at": "2026-11-06T17:02:49Z",
+      "source": "AMC Monthly Portfolio Disclosure (SEBI Reg)",
+      "equity_allocation_pct": 84.0,
+      "cash_debt_pct": 16.0,
+      "constituents": [
+        {
+          "symbol": "HDFCBANK",
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 7.75
+        },
+        {
+          "symbol": "POWERGRID",
+          "name": "Power Grid Corp of India",
+          "sector": "Power",
+          "weight": 5.6
+        },
+        {
+          "symbol": "ITC",
+          "name": "ITC Ltd",
+          "sector": "Fast Moving Consumer Goods",
+          "weight": 5.49
+        },
+        {
+          "symbol": "COALINDIA",
+          "name": "Coal India Ltd",
+          "sector": "Oil Gas & Consumable Fuels",
+          "weight": 5.39
+        },
+        {
+          "symbol": "ICICIBANK",
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 5.24
+        },
+        {
+          "symbol": "BAJAJHLDNG",
+          "name": "Bajaj Holdings & Investment Ltd",
+          "sector": "Financial Services",
+          "weight": 5.1
+        },
+        {
+          "symbol": "KOTAKBANK",
+          "name": "Kotak Mahindra Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 4.44
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc (Google)",
+          "sector": "Information Technology",
+          "weight": 4.2
+        },
+        {
+          "symbol": "HCLTECH",
+          "name": "HCL Technologies Ltd",
+          "sector": "Information Technology",
+          "weight": 3.5
+        },
+        {
+          "symbol": "AXISBANK",
+          "name": "Axis Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 2.7
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "sector": "Information Technology",
+          "weight": 2.4
+        },
+        {
+          "symbol": "CDSL",
+          "name": "Central Depository Services Ltd",
+          "sector": "Financial Services",
+          "weight": 2.1
+        },
+        {
+          "symbol": "MARUTI",
+          "name": "Maruti Suzuki India Ltd",
+          "sector": "Automobile and Auto Components",
+          "weight": 2.05
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc",
+          "sector": "Information Technology",
+          "weight": 1.85
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "sector": "Consumer Discretionary",
+          "weight": 1.8
+        },
+        {
+          "symbol": "CIPLA",
+          "name": "Cipla Ltd",
+          "sector": "Healthcare",
+          "weight": 1.65
+        },
+        {
+          "symbol": "SUNPHARMA",
+          "name": "Sun Pharmaceutical Industries Ltd",
+          "sector": "Healthcare",
+          "weight": 1.5
+        },
+        {
+          "symbol": "OTHER_EQUITY",
+          "name": "Other Flexi-Cap Constituents",
+          "sector": "Diversified",
+          "weight": 21.24
+        }
+      ]
+    },
+    "INF179K01XQ0": {
+      "fund_name": "HDFC Mid-Cap Fund - Direct Plan",
+      "amc": "HDFC Mutual Fund",
+      "category": "Equity: Mid Cap",
+      "exclude_from_equity_lookthrough": false,
+      "as_of_disclosure_month": "October 2026",
+      "last_verified_at": "2026-11-06T17:02:49Z",
+      "source": "AMC Monthly Portfolio Disclosure (SEBI Reg)",
+      "equity_allocation_pct": 95.0,
+      "cash_debt_pct": 5.0,
+      "constituents": [
+        {
+          "symbol": "FEDERALBNK",
+          "name": "The Federal Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 4.2
+        },
+        {
+          "symbol": "AUBANK",
+          "name": "AU Small Finance Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 3.8
+        },
+        {
+          "symbol": "MFSL",
+          "name": "Max Financial Services Ltd",
+          "sector": "Financial Services",
+          "weight": 3.5
+        },
+        {
+          "symbol": "IPCALAB",
+          "name": "Ipca Laboratories Ltd",
+          "sector": "Healthcare",
+          "weight": 3.4
+        },
+        {
+          "symbol": "GLENMARK",
+          "name": "Glenmark Pharmaceuticals Ltd",
+          "sector": "Healthcare",
+          "weight": 3.2
+        },
+        {
+          "symbol": "BIL",
+          "name": "Balkrishna Industries Ltd",
+          "sector": "Automobile and Auto Components",
+          "weight": 3.1
+        },
+        {
+          "symbol": "INDIANB",
+          "name": "Indian Bank",
+          "sector": "Financial Services",
+          "weight": 3.0
+        },
+        {
+          "symbol": "BEL",
+          "name": "Bharat Electronics Ltd",
+          "sector": "Capital Goods",
+          "weight": 2.9
+        },
+        {
+          "symbol": "CUMMINSIND",
+          "name": "Cummins India Ltd",
+          "sector": "Capital Goods",
+          "weight": 2.8
+        },
+        {
+          "symbol": "TIMKEN",
+          "name": "Timken India Ltd",
+          "sector": "Capital Goods",
+          "weight": 2.6
+        },
+        {
+          "symbol": "TATACOMM",
+          "name": "Tata Communications Ltd",
+          "sector": "Telecommunication",
+          "weight": 2.5
+        },
+        {
+          "symbol": "OTHER_EQUITY",
+          "name": "Other Mid-Cap Constituents",
+          "sector": "Diversified Mid-Cap",
+          "weight": 60.0
+        }
+      ]
+    },
+    "INF879O01100": {
+      "fund_name": "Parag Parikh ELSS Tax Saver Fund - Direct Plan",
+      "amc": "PPFAS Mutual Fund",
+      "category": "Equity: ELSS (Tax Saver)",
+      "exclude_from_equity_lookthrough": false,
+      "as_of_disclosure_month": "October 2026",
+      "last_verified_at": "2026-11-06T17:02:49Z",
+      "source": "AMC Monthly Portfolio Disclosure (SEBI Reg)",
+      "equity_allocation_pct": 85.0,
+      "cash_debt_pct": 15.0,
+      "constituents": [
+        {
+          "symbol": "HDFCBANK",
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 7.5
+        },
+        {
+          "symbol": "POWERGRID",
+          "name": "Power Grid Corp of India",
+          "sector": "Power",
+          "weight": 5.5
+        },
+        {
+          "symbol": "ITC",
+          "name": "ITC Ltd",
+          "sector": "Fast Moving Consumer Goods",
+          "weight": 5.5
+        },
+        {
+          "symbol": "COALINDIA",
+          "name": "Coal India Ltd",
+          "sector": "Oil Gas & Consumable Fuels",
+          "weight": 5.3
+        },
+        {
+          "symbol": "ICICIBANK",
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 5.2
+        },
+        {
+          "symbol": "BAJAJHLDNG",
+          "name": "Bajaj Holdings & Investment Ltd",
+          "sector": "Financial Services",
+          "weight": 4.9
+        },
+        {
+          "symbol": "KOTAKBANK",
+          "name": "Kotak Mahindra Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 4.3
+        },
+        {
+          "symbol": "AXISBANK",
+          "name": "Axis Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 2.8
+        },
+        {
+          "symbol": "CDSL",
+          "name": "Central Depository Services Ltd",
+          "sector": "Financial Services",
+          "weight": 2.2
+        },
+        {
+          "symbol": "CIPLA",
+          "name": "Cipla Ltd",
+          "sector": "Healthcare",
+          "weight": 1.8
+        },
+        {
+          "symbol": "OTHER_EQUITY",
+          "name": "Other ELSS Constituents",
+          "sector": "Diversified",
+          "weight": 40.0
+        }
+      ]
+    },
+    "INF109K01Y07": {
+      "fund_name": "ICICI Prudential Aggressive Hybrid Fund - Direct Plan",
+      "amc": "ICICI Prudential Mutual Fund",
+      "category": "Hybrid: Aggressive Hybrid",
+      "exclude_from_equity_lookthrough": false,
+      "as_of_disclosure_month": "October 2026",
+      "last_verified_at": "2026-11-06T17:02:49Z",
+      "source": "AMC Monthly Portfolio Disclosure (SEBI Reg)",
+      "equity_allocation_pct": 70.0,
+      "cash_debt_pct": 30.0,
+      "constituents": [
+        {
+          "symbol": "ICICIBANK",
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 4.8
+        },
+        {
+          "symbol": "HDFCBANK",
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial Services",
+          "weight": 4.5
+        },
+        {
+          "symbol": "RELIANCE",
+          "name": "Reliance Industries Ltd",
+          "sector": "Oil Gas & Consumable Fuels",
+          "weight": 3.6
+        },
+        {
+          "symbol": "INFY",
+          "name": "Infosys Ltd",
+          "sector": "Information Technology",
+          "weight": 3.2
+        },
+        {
+          "symbol": "LT",
+          "name": "Larsen & Toubro Ltd",
+          "sector": "Construction",
+          "weight": 3.0
+        },
+        {
+          "symbol": "SBIN",
+          "name": "State Bank of India",
+          "sector": "Financial Services",
+          "weight": 2.8
+        },
+        {
+          "symbol": "BHARTIARTL",
+          "name": "Bharti Airtel Ltd",
+          "sector": "Telecommunication",
+          "weight": 2.5
+        },
+        {
+          "symbol": "ITC",
+          "name": "ITC Ltd",
+          "sector": "Fast Moving Consumer Goods",
+          "weight": 2.0
+        },
+        {
+          "symbol": "OTHER_EQUITY",
+          "name": "Other Hybrid Equity Constituents",
+          "sector": "Diversified",
+          "weight": 43.6
+        }
+      ]
+    },
+    "INF879O01068": {
+      "fund_name": "Parag Parikh Liquid Fund - Direct Plan",
+      "amc": "PPFAS Mutual Fund",
+      "category": "Debt: Liquid Fund",
+      "exclude_from_equity_lookthrough": true,
+      "as_of_disclosure_month": "October 2026",
+      "last_verified_at": "2026-11-06T17:02:49Z",
+      "source": "AMC Monthly Portfolio Disclosure (SEBI Reg)",
+      "equity_allocation_pct": 0.0,
+      "cash_debt_pct": 100.0,
+      "constituents": []
+    },
+    "INF109K01Q49": {
+      "fund_name": "ICICI Prudential Liquid Fund - Direct Plan",
+      "amc": "ICICI Prudential Mutual Fund",
+      "category": "Debt: Liquid Fund",
+      "exclude_from_equity_lookthrough": true,
+      "as_of_disclosure_month": "October 2026",
+      "last_verified_at": "2026-11-06T17:02:49Z",
+      "source": "AMC Monthly Portfolio Disclosure (SEBI Reg)",
+      "equity_allocation_pct": 0.0,
+      "cash_debt_pct": 100.0,
+      "constituents": []
+    }
+  }
+}

@@ -13,6 +13,7 @@
         {"symbol": "COALINDIA", "name": "Coal India Ltd", "sector": "Oil Gas & Consumable Fuels", "weight": 5.39},
         {"symbol": "ICICIBANK", "name": "ICICI Bank Ltd", "sector": "Financial Services", "weight": 5.24},
         {"symbol": "BAJAJHLDNG", "name": "Bajaj Holdings & Investment Ltd", "sector": "Financial Services", "weight": 5.10},
+        {"symbol": "KOTAKBANK", "name": "Kotak Mahindra Bank Ltd", "sector": "Financial Services", "weight": 4.44},
         {"symbol": "GOOGL", "name": "Alphabet Inc (Google)", "sector": "Information Technology", "weight": 4.20},
         {"symbol": "HCLTECH", "name": "HCL Technologies Ltd", "sector": "Information Technology", "weight": 3.50},
         {"symbol": "AXISBANK", "name": "Axis Bank Ltd", "sector": "Financial Services", "weight": 2.70},
@@ -23,7 +24,7 @@
         {"symbol": "AMZN", "name": "Amazon.com Inc", "sector": "Consumer Discretionary", "weight": 1.80},
         {"symbol": "CIPLA", "name": "Cipla Ltd", "sector": "Healthcare", "weight": 1.65},
         {"symbol": "SUNPHARMA", "name": "Sun Pharmaceutical Industries Ltd", "sector": "Healthcare", "weight": 1.50},
-        {"symbol": "OTHER_EQUITY", "name": "Other Flexi-Cap Constituents", "sector": "Diversified", "weight": 25.68}
+        {"symbol": "OTHER_EQUITY", "name": "Other Flexi-Cap Constituents", "sector": "Diversified", "weight": 21.24}
       ]
     },
     "INF179K01XQ0": {
@@ -60,10 +61,11 @@
         {"symbol": "COALINDIA", "name": "Coal India Ltd", "sector": "Oil Gas & Consumable Fuels", "weight": 5.30},
         {"symbol": "ICICIBANK", "name": "ICICI Bank Ltd", "sector": "Financial Services", "weight": 5.20},
         {"symbol": "BAJAJHLDNG", "name": "Bajaj Holdings & Investment Ltd", "sector": "Financial Services", "weight": 4.90},
+        {"symbol": "KOTAKBANK", "name": "Kotak Mahindra Bank Ltd", "sector": "Financial Services", "weight": 4.30},
         {"symbol": "AXISBANK", "name": "Axis Bank Ltd", "sector": "Financial Services", "weight": 2.80},
         {"symbol": "CDSL", "name": "Central Depository Services Ltd", "sector": "Financial Services", "weight": 2.20},
         {"symbol": "CIPLA", "name": "Cipla Ltd", "sector": "Healthcare", "weight": 1.80},
-        {"symbol": "OTHER_EQUITY", "name": "Other ELSS Constituents", "sector": "Diversified", "weight": 44.30}
+        {"symbol": "OTHER_EQUITY", "name": "Other ELSS Constituents", "sector": "Diversified", "weight": 40.00}
       ]
     },
     "INF109K01Y07": {

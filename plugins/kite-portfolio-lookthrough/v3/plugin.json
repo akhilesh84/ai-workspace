@@ -1,0 +1,13 @@
+{
+  "name": "kite-portfolio-lookthrough",
+  "version": "3.0.0",
+  "description": "Zerodha Kite portfolio analysis, ETF look-through decomposition, and automated dynamic Mutual Fund look-through with live SEBI disclosure synchronization for Claude, Copilot, Antigravity, and MCP-compatible agents",
+  "author": "akhilesh",
+  "skills": [
+    "skills/kite-portfolio-lookthrough/v3"
+  ],
+  "prompts": [],
+  "mcp_servers": [
+    "kite"
+  ]
+}
