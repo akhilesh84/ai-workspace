@@ -35,3 +35,6 @@ desktop.ini
 .coverage
 htmlcov/
 *.bak
+
+# ─── Temporary directories -──────────────────────────────────────────────────
+tmp/
