@@ -26,7 +26,7 @@ Designed to work seamlessly across:
 
 ## Skills Used
 
-- [`skills/kite-portfolio-lookthrough/latest`](skills/kite-portfolio-lookthrough/latest/SKILL.md)
+- [`skills/kite-portfolio-lookthrough/v1`](skills/kite-portfolio-lookthrough/v1/SKILL.md)
   — Full workflow: auth verification → fetch holdings → ETF decomposition → consolidated report
 
 ## MCP Servers Used
