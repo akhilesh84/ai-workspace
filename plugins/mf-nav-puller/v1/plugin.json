@@ -1,0 +1,12 @@
+{
+  "name": "mf-nav-puller",
+  "version": "1.0.0",
+  "description": "Mutual fund Net Asset Value (NAV) historical data puller and performance analyzer using the mfapi.in Swagger API endpoint with ISO 8601 date range support and typo-tolerant scheme search",
+  "author": "akhilesh",
+  "skills": [
+    "skills/mf-nav-puller/v1"
+  ],
+  "prompts": [],
+  "mcp_servers": []
+}
+

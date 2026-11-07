@@ -1,0 +1,15 @@
+{
+  "name": "mf-returns-comparator",
+  "version": "1.0.0",
+  "description": "Compares historical NAV returns, CAGR, maximum drawdowns, volatilities, and Sharpe ratios across mutual funds using mf-nav-puller",
+  "author": "akhilesh",
+  "skills": [
+    "skills/mf-returns-comparator/v1"
+  ],
+  "dependencies": [
+    "mf-nav-puller"
+  ],
+  "prompts": [],
+  "mcp_servers": []
+}
+
