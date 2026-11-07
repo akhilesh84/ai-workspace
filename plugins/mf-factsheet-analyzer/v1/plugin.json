@@ -1,0 +1,12 @@
+{
+  "name": "mf-factsheet-analyzer",
+  "version": "1.0.0",
+  "description": "Historical mutual fund factsheet and statutory portfolio disclosure analysis across a 36-month horizon, tracking capital utilization, dry powder cash reserves, investment rotation, sector drift, and concentration risk",
+  "author": "akhilesh",
+  "skills": [
+    "skills/mf-factsheet-analyzer/v1"
+  ],
+  "prompts": [],
+  "mcp_servers": []
+}
+

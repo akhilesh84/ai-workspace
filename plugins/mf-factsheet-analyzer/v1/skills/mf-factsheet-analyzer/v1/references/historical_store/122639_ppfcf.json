@@ -1,0 +1,5653 @@
+{
+  "scheme_code": 122639,
+  "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
+  "fund_house": "PPFAS Mutual Fund",
+  "scheme_category": "Equity Scheme - Flexi Cap Fund",
+  "isin": "INF879O01027",
+  "benchmark": "Nifty 500 TRI",
+  "history_months_count": 60,
+  "history_start_month": "2021-11",
+  "history_end_month": "2026-10",
+  "monthly_snapshots": [
+    {
+      "month_year": "2021-11",
+      "as_of_date": "Last Day of 2021-11",
+      "nav": 53.79,
+      "aum_crores": 19500.0,
+      "portfolio_turnover_ratio_ex_arbitrage": 16.0,
+      "portfolio_turnover_ratio_incl_arbitrage": 35.5,
+      "asset_allocation": {
+        "domestic_equity_pct": 54.8,
+        "foreign_equity_pct": 28.5,
+        "reits_invits_pct": 2.4,
+        "arbitrage_pct": 2.0,
+        "treps_reverse_repo_pct": 6.44,
+        "money_market_pct": 5.0,
+        "net_current_assets_pct": 2.86,
+        "dry_powder_total_pct": 14.3
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.5,
+        "Information Technology": 26.0,
+        "Utilities & Power": 4.5,
+        "Consumer Staples": 8.5,
+        "Consumer Discretionary": 9.8,
+        "Energy": 4.2,
+        "Industrials": 5.5,
+        "Healthcare": 5.3,
+        "Real Estate": 2.4,
+        "Cash & Cash Equivalents": 14.3,
+        "Other / Diversified": 1.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.2
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.8
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.8
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.5
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.2
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 3.8
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 8.5
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.8
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.5
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.5
+        }
+      ]
+    },
+    {
+      "month_year": "2021-12",
+      "as_of_date": "Last Day of 2021-12",
+      "nav": 55.3062,
+      "aum_crores": 21924.0,
+      "portfolio_turnover_ratio_ex_arbitrage": 16.97,
+      "portfolio_turnover_ratio_incl_arbitrage": 38.87,
+      "asset_allocation": {
+        "domestic_equity_pct": 53.82,
+        "foreign_equity_pct": 28.36,
+        "reits_invits_pct": 2.45,
+        "arbitrage_pct": 2.3,
+        "treps_reverse_repo_pct": 6.92,
+        "money_market_pct": 5.38,
+        "net_current_assets_pct": 3.07,
+        "dry_powder_total_pct": 15.37
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 18.86,
+        "Information Technology": 25.48,
+        "Utilities & Power": 4.66,
+        "Consumer Staples": 8.51,
+        "Consumer Discretionary": 9.74,
+        "Energy": 4.44,
+        "Industrials": 5.89,
+        "Healthcare": 5.28,
+        "Real Estate": 2.45,
+        "Cash & Cash Equivalents": 15.37,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.29
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.81
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.94
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.56
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.21
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 3.9
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 8.42
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.73
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.5
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.6
+        }
+      ]
+    },
+    {
+      "month_year": "2022-01",
+      "as_of_date": "Last Day of 2022-01",
+      "nav": 56.6872,
+      "aum_crores": 24329.5,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.86,
+      "portfolio_turnover_ratio_incl_arbitrage": 42.0,
+      "asset_allocation": {
+        "domestic_equity_pct": 53.07,
+        "foreign_equity_pct": 28.21,
+        "reits_invits_pct": 2.47,
+        "arbitrage_pct": 2.58,
+        "treps_reverse_repo_pct": 7.31,
+        "money_market_pct": 5.69,
+        "net_current_assets_pct": 3.25,
+        "dry_powder_total_pct": 16.25
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 19.2,
+        "Information Technology": 24.98,
+        "Utilities & Power": 4.82,
+        "Consumer Staples": 8.47,
+        "Consumer Discretionary": 9.63,
+        "Energy": 4.67,
+        "Industrials": 6.24,
+        "Healthcare": 5.23,
+        "Real Estate": 2.47,
+        "Cash & Cash Equivalents": 16.25,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.39
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.81
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.06
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.61
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.2
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.0
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 8.34
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.66
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.49
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.69
+        }
+      ]
+    },
+    {
+      "month_year": "2022-02",
+      "as_of_date": "Last Day of 2022-02",
+      "nav": 57.819,
+      "aum_crores": 26699.3,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.61,
+      "portfolio_turnover_ratio_incl_arbitrage": 44.67,
+      "asset_allocation": {
+        "domestic_equity_pct": 52.67,
+        "foreign_equity_pct": 28.03,
+        "reits_invits_pct": 2.48,
+        "arbitrage_pct": 2.82,
+        "treps_reverse_repo_pct": 7.57,
+        "money_market_pct": 5.89,
+        "net_current_assets_pct": 3.36,
+        "dry_powder_total_pct": 16.82
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 19.52,
+        "Information Technology": 24.5,
+        "Utilities & Power": 4.98,
+        "Consumer Staples": 8.4,
+        "Consumer Discretionary": 9.46,
+        "Energy": 4.86,
+        "Industrials": 6.51,
+        "Healthcare": 5.17,
+        "Real Estate": 2.48,
+        "Cash & Cash Equivalents": 16.82,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.47
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.79
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.16
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.66
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.18
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.09
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 8.27
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.59
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.47
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.76
+        }
+      ]
+    },
+    {
+      "month_year": "2022-03",
+      "as_of_date": "Last Day of 2022-03",
+      "nav": 58.627,
+      "aum_crores": 29018.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.15,
+      "portfolio_turnover_ratio_incl_arbitrage": 46.73,
+      "asset_allocation": {
+        "domestic_equity_pct": 52.71,
+        "foreign_equity_pct": 27.81,
+        "reits_invits_pct": 2.47,
+        "arbitrage_pct": 3.01,
+        "treps_reverse_repo_pct": 7.65,
+        "money_market_pct": 5.95,
+        "net_current_assets_pct": 3.41,
+        "dry_powder_total_pct": 17.01
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 19.81,
+        "Information Technology": 24.06,
+        "Utilities & Power": 5.12,
+        "Consumer Staples": 8.3,
+        "Consumer Discretionary": 9.24,
+        "Energy": 4.99,
+        "Industrials": 6.68,
+        "Healthcare": 5.09,
+        "Real Estate": 2.47,
+        "Cash & Cash Equivalents": 17.01,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.55
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.76
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.24
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.71
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.16
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.16
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 8.19
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.52
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.45
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.81
+        }
+      ]
+    },
+    {
+      "month_year": "2022-04",
+      "as_of_date": "Last Day of 2022-04",
+      "nav": 59.0879,
+      "aum_crores": 31274.4,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.45,
+      "portfolio_turnover_ratio_incl_arbitrage": 48.07,
+      "asset_allocation": {
+        "domestic_equity_pct": 53.21,
+        "foreign_equity_pct": 27.56,
+        "reits_invits_pct": 2.46,
+        "arbitrage_pct": 3.14,
+        "treps_reverse_repo_pct": 7.55,
+        "money_market_pct": 5.87,
+        "net_current_assets_pct": 3.35,
+        "dry_powder_total_pct": 16.77
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 20.06,
+        "Information Technology": 23.68,
+        "Utilities & Power": 5.26,
+        "Consumer Staples": 8.17,
+        "Consumer Discretionary": 8.99,
+        "Energy": 5.08,
+        "Industrials": 6.72,
+        "Healthcare": 5.0,
+        "Real Estate": 2.46,
+        "Cash & Cash Equivalents": 16.77,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.61
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.71
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.28
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.76
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.12
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.22
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 8.11
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.45
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.42
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.84
+        }
+      ]
+    },
+    {
+      "month_year": "2022-05",
+      "as_of_date": "Last Day of 2022-05",
+      "nav": 59.233,
+      "aum_crores": 33459.7,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.48,
+      "portfolio_turnover_ratio_incl_arbitrage": 48.58,
+      "asset_allocation": {
+        "domestic_equity_pct": 54.17,
+        "foreign_equity_pct": 27.26,
+        "reits_invits_pct": 2.46,
+        "arbitrage_pct": 3.2,
+        "treps_reverse_repo_pct": 7.25,
+        "money_market_pct": 5.64,
+        "net_current_assets_pct": 3.22,
+        "dry_powder_total_pct": 16.11
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 20.25,
+        "Information Technology": 23.36,
+        "Utilities & Power": 5.38,
+        "Consumer Staples": 8.01,
+        "Consumer Discretionary": 8.72,
+        "Energy": 5.1,
+        "Industrials": 6.65,
+        "Healthcare": 4.9,
+        "Real Estate": 2.46,
+        "Cash & Cash Equivalents": 16.11,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.66
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.66
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.29
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.8
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.08
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.26
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 8.03
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.38
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.39
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.84
+        }
+      ]
+    },
+    {
+      "month_year": "2022-06",
+      "as_of_date": "Last Day of 2022-06",
+      "nav": 59.1434,
+      "aum_crores": 35570.6,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.24,
+      "portfolio_turnover_ratio_incl_arbitrage": 48.18,
+      "asset_allocation": {
+        "domestic_equity_pct": 55.51,
+        "foreign_equity_pct": 26.91,
+        "reits_invits_pct": 2.49,
+        "arbitrage_pct": 3.18,
+        "treps_reverse_repo_pct": 6.79,
+        "money_market_pct": 5.28,
+        "net_current_assets_pct": 3.02,
+        "dry_powder_total_pct": 15.09
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 20.39,
+        "Information Technology": 23.1,
+        "Utilities & Power": 5.49,
+        "Consumer Staples": 7.85,
+        "Consumer Discretionary": 8.44,
+        "Energy": 5.05,
+        "Industrials": 6.47,
+        "Healthcare": 4.79,
+        "Real Estate": 2.49,
+        "Cash & Cash Equivalents": 15.09,
+        "Other / Diversified": 0.84
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.7
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.61
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.26
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.83
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.03
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.29
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.95
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.31
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.35
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.82
+        }
+      ]
+    },
+    {
+      "month_year": "2022-07",
+      "as_of_date": "Last Day of 2022-07",
+      "nav": 58.9375,
+      "aum_crores": 37608.1,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.75,
+      "portfolio_turnover_ratio_incl_arbitrage": 46.97,
+      "asset_allocation": {
+        "domestic_equity_pct": 57.12,
+        "foreign_equity_pct": 26.53,
+        "reits_invits_pct": 2.54,
+        "arbitrage_pct": 3.09,
+        "treps_reverse_repo_pct": 6.21,
+        "money_market_pct": 4.83,
+        "net_current_assets_pct": 2.77,
+        "dry_powder_total_pct": 13.81
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.47,
+        "Information Technology": 22.91,
+        "Utilities & Power": 5.58,
+        "Consumer Staples": 7.67,
+        "Consumer Discretionary": 8.18,
+        "Energy": 4.96,
+        "Industrials": 6.21,
+        "Healthcare": 4.68,
+        "Real Estate": 2.54,
+        "Cash & Cash Equivalents": 13.81,
+        "Other / Diversified": 2.99
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.72
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.56
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.21
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.86
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.99
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.29
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.88
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.24
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.31
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.77
+        }
+      ]
+    },
+    {
+      "month_year": "2022-08",
+      "as_of_date": "Last Day of 2022-08",
+      "nav": 58.7519,
+      "aum_crores": 39577.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.04,
+      "portfolio_turnover_ratio_incl_arbitrage": 44.98,
+      "asset_allocation": {
+        "domestic_equity_pct": 58.87,
+        "foreign_equity_pct": 26.12,
+        "reits_invits_pct": 2.63,
+        "arbitrage_pct": 2.93,
+        "treps_reverse_repo_pct": 5.57,
+        "money_market_pct": 4.33,
+        "net_current_assets_pct": 2.48,
+        "dry_powder_total_pct": 12.38
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.49,
+        "Information Technology": 22.8,
+        "Utilities & Power": 5.66,
+        "Consumer Staples": 7.5,
+        "Consumer Discretionary": 7.94,
+        "Energy": 4.82,
+        "Industrials": 5.92,
+        "Healthcare": 4.56,
+        "Real Estate": 2.63,
+        "Cash & Cash Equivalents": 12.38,
+        "Other / Diversified": 5.3
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.73
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.53
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.12
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.88
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.94
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.28
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.8
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.17
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.27
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.7
+        }
+      ]
+    },
+    {
+      "month_year": "2022-09",
+      "as_of_date": "Last Day of 2022-09",
+      "nav": 58.7199,
+      "aum_crores": 41489.4,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.17,
+      "portfolio_turnover_ratio_incl_arbitrage": 42.43,
+      "asset_allocation": {
+        "domestic_equity_pct": 60.59,
+        "foreign_equity_pct": 25.69,
+        "reits_invits_pct": 2.75,
+        "arbitrage_pct": 2.72,
+        "treps_reverse_repo_pct": 4.94,
+        "money_market_pct": 3.84,
+        "net_current_assets_pct": 2.19,
+        "dry_powder_total_pct": 10.97
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.46,
+        "Information Technology": 22.75,
+        "Utilities & Power": 5.72,
+        "Consumer Staples": 7.34,
+        "Consumer Discretionary": 7.74,
+        "Energy": 4.65,
+        "Industrials": 5.62,
+        "Healthcare": 4.46,
+        "Real Estate": 2.75,
+        "Cash & Cash Equivalents": 10.97,
+        "Other / Diversified": 7.54
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.72
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.5
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.03
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.9
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.89
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.25
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.72
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.11
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.22
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.63
+        }
+      ]
+    },
+    {
+      "month_year": "2022-10",
+      "as_of_date": "Last Day of 2022-10",
+      "nav": 58.9509,
+      "aum_crores": 43356.3,
+      "portfolio_turnover_ratio_ex_arbitrage": 16.22,
+      "portfolio_turnover_ratio_incl_arbitrage": 39.4,
+      "asset_allocation": {
+        "domestic_equity_pct": 62.17,
+        "foreign_equity_pct": 25.25,
+        "reits_invits_pct": 2.88,
+        "arbitrage_pct": 2.46,
+        "treps_reverse_repo_pct": 4.37,
+        "money_market_pct": 3.39,
+        "net_current_assets_pct": 1.94,
+        "dry_powder_total_pct": 9.7
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.37,
+        "Information Technology": 22.77,
+        "Utilities & Power": 5.76,
+        "Consumer Staples": 7.19,
+        "Consumer Discretionary": 7.6,
+        "Energy": 4.48,
+        "Industrials": 5.37,
+        "Healthcare": 4.36,
+        "Real Estate": 2.88,
+        "Cash & Cash Equivalents": 9.7,
+        "Other / Diversified": 9.52
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.69
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.48
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.92
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.91
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.85
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.21
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.64
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 7.04
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.18
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.55
+        }
+      ]
+    },
+    {
+      "month_year": "2022-11",
+      "as_of_date": "Last Day of 2022-11",
+      "nav": 59.5123,
+      "aum_crores": 45194.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 15.24,
+      "portfolio_turnover_ratio_incl_arbitrage": 36.1,
+      "asset_allocation": {
+        "domestic_equity_pct": 63.44,
+        "foreign_equity_pct": 24.82,
+        "reits_invits_pct": 3.03,
+        "arbitrage_pct": 2.17,
+        "treps_reverse_repo_pct": 3.92,
+        "money_market_pct": 3.05,
+        "net_current_assets_pct": 1.74,
+        "dry_powder_total_pct": 8.71
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 20.23,
+        "Information Technology": 22.85,
+        "Utilities & Power": 5.79,
+        "Consumer Staples": 7.07,
+        "Consumer Discretionary": 7.5,
+        "Energy": 4.32,
+        "Industrials": 5.2,
+        "Healthcare": 4.27,
+        "Real Estate": 3.03,
+        "Cash & Cash Equivalents": 8.71,
+        "Other / Diversified": 11.03
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.65
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.49
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.83
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.91
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.82
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.17
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.56
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.97
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.13
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.47
+        }
+      ]
+    },
+    {
+      "month_year": "2022-12",
+      "as_of_date": "Last Day of 2022-12",
+      "nav": 60.4198,
+      "aum_crores": 47022.7,
+      "portfolio_turnover_ratio_ex_arbitrage": 14.33,
+      "portfolio_turnover_ratio_incl_arbitrage": 32.79,
+      "asset_allocation": {
+        "domestic_equity_pct": 64.32,
+        "foreign_equity_pct": 24.41,
+        "reits_invits_pct": 3.18,
+        "arbitrage_pct": 1.87,
+        "treps_reverse_repo_pct": 3.64,
+        "money_market_pct": 2.83,
+        "net_current_assets_pct": 1.62,
+        "dry_powder_total_pct": 8.09
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 20.04,
+        "Information Technology": 22.98,
+        "Utilities & Power": 5.79,
+        "Consumer Staples": 6.97,
+        "Consumer Discretionary": 7.48,
+        "Energy": 4.18,
+        "Industrials": 5.13,
+        "Healthcare": 4.2,
+        "Real Estate": 3.18,
+        "Cash & Cash Equivalents": 8.09,
+        "Other / Diversified": 11.96
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.6
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.51
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.75
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.91
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.8
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.12
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.49
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.9
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.09
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.4
+        }
+      ]
+    },
+    {
+      "month_year": "2023-01",
+      "as_of_date": "Last Day of 2023-01",
+      "nav": 61.6341,
+      "aum_crores": 48858.7,
+      "portfolio_turnover_ratio_ex_arbitrage": 13.54,
+      "portfolio_turnover_ratio_incl_arbitrage": 29.68,
+      "asset_allocation": {
+        "domestic_equity_pct": 64.67,
+        "foreign_equity_pct": 24.03,
+        "reits_invits_pct": 3.3,
+        "arbitrage_pct": 1.58,
+        "treps_reverse_repo_pct": 3.6,
+        "money_market_pct": 2.8,
+        "net_current_assets_pct": 1.6,
+        "dry_powder_total_pct": 8.0
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 19.83,
+        "Information Technology": 23.14,
+        "Utilities & Power": 5.78,
+        "Consumer Staples": 6.91,
+        "Consumer Discretionary": 7.51,
+        "Energy": 4.09,
+        "Industrials": 5.18,
+        "Healthcare": 4.14,
+        "Real Estate": 3.3,
+        "Cash & Cash Equivalents": 8.0,
+        "Other / Diversified": 12.12
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.55
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.55
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.69
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.9
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.78
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.07
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.41
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.83
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.05
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.36
+        }
+      ]
+    },
+    {
+      "month_year": "2023-02",
+      "as_of_date": "Last Day of 2023-02",
+      "nav": 63.0677,
+      "aum_crores": 50720.9,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.95,
+      "portfolio_turnover_ratio_incl_arbitrage": 26.93,
+      "asset_allocation": {
+        "domestic_equity_pct": 64.78,
+        "foreign_equity_pct": 23.69,
+        "reits_invits_pct": 3.41,
+        "arbitrage_pct": 1.31,
+        "treps_reverse_repo_pct": 3.65,
+        "money_market_pct": 2.84,
+        "net_current_assets_pct": 1.63,
+        "dry_powder_total_pct": 8.12
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 19.6,
+        "Information Technology": 23.33,
+        "Utilities & Power": 5.76,
+        "Consumer Staples": 6.89,
+        "Consumer Discretionary": 7.6,
+        "Energy": 4.05,
+        "Industrials": 5.35,
+        "Healthcare": 4.1,
+        "Real Estate": 3.41,
+        "Cash & Cash Equivalents": 8.12,
+        "Other / Diversified": 11.79
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.49
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.61
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.66
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.89
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.78
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.04
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.33
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.76
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.01
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.33
+        }
+      ]
+    },
+    {
+      "month_year": "2023-03",
+      "as_of_date": "Last Day of 2023-03",
+      "nav": 64.5983,
+      "aum_crores": 52625.7,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.59,
+      "portfolio_turnover_ratio_incl_arbitrage": 24.81,
+      "asset_allocation": {
+        "domestic_equity_pct": 64.39,
+        "foreign_equity_pct": 23.39,
+        "reits_invits_pct": 3.48,
+        "arbitrage_pct": 1.09,
+        "treps_reverse_repo_pct": 3.93,
+        "money_market_pct": 3.06,
+        "net_current_assets_pct": 1.75,
+        "dry_powder_total_pct": 8.74
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 19.36,
+        "Information Technology": 23.53,
+        "Utilities & Power": 5.72,
+        "Consumer Staples": 6.91,
+        "Consumer Discretionary": 7.74,
+        "Energy": 4.07,
+        "Industrials": 5.63,
+        "Healthcare": 4.08,
+        "Real Estate": 3.48,
+        "Cash & Cash Equivalents": 8.74,
+        "Other / Diversified": 10.74
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.42
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.68
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.67
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.87
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.79
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.01
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.25
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.69
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.98
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.34
+        }
+      ]
+    },
+    {
+      "month_year": "2023-04",
+      "as_of_date": "Last Day of 2023-04",
+      "nav": 66.0884,
+      "aum_crores": 54587.0,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.5,
+      "portfolio_turnover_ratio_incl_arbitrage": 24.0,
+      "asset_allocation": {
+        "domestic_equity_pct": 63.67,
+        "foreign_equity_pct": 23.14,
+        "reits_invits_pct": 3.53,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 4.35,
+        "money_market_pct": 3.38,
+        "net_current_assets_pct": 1.93,
+        "dry_powder_total_pct": 9.66
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 19.13,
+        "Information Technology": 23.72,
+        "Utilities & Power": 5.67,
+        "Consumer Staples": 6.97,
+        "Consumer Discretionary": 7.92,
+        "Energy": 4.16,
+        "Industrials": 5.98,
+        "Healthcare": 4.09,
+        "Real Estate": 3.53,
+        "Cash & Cash Equivalents": 9.66,
+        "Other / Diversified": 9.17
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.36
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.77
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.72
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.84
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.81
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 3.99
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.17
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.62
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.95
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.37
+        }
+      ]
+    },
+    {
+      "month_year": "2023-05",
+      "as_of_date": "Last Day of 2023-05",
+      "nav": 67.4069,
+      "aum_crores": 56615.1,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.69,
+      "portfolio_turnover_ratio_incl_arbitrage": 24.19,
+      "asset_allocation": {
+        "domestic_equity_pct": 62.77,
+        "foreign_equity_pct": 22.93,
+        "reits_invits_pct": 3.54,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 4.84,
+        "money_market_pct": 3.77,
+        "net_current_assets_pct": 2.15,
+        "dry_powder_total_pct": 10.76
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.9,
+        "Information Technology": 23.9,
+        "Utilities & Power": 5.6,
+        "Consumer Staples": 7.06,
+        "Consumer Discretionary": 8.13,
+        "Energy": 4.3,
+        "Industrials": 6.37,
+        "Healthcare": 4.11,
+        "Real Estate": 3.54,
+        "Cash & Cash Equivalents": 10.76,
+        "Other / Diversified": 7.33
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.3
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.86
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.8
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.81
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.84
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 3.99
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.1
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.55
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.93
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.42
+        }
+      ]
+    },
+    {
+      "month_year": "2023-06",
+      "as_of_date": "Last Day of 2023-06",
+      "nav": 68.4498,
+      "aum_crores": 58716.1,
+      "portfolio_turnover_ratio_ex_arbitrage": 13.13,
+      "portfolio_turnover_ratio_incl_arbitrage": 24.63,
+      "asset_allocation": {
+        "domestic_equity_pct": 61.79,
+        "foreign_equity_pct": 22.75,
+        "reits_invits_pct": 3.54,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 5.36,
+        "money_market_pct": 4.17,
+        "net_current_assets_pct": 2.39,
+        "dry_powder_total_pct": 11.92
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.71,
+        "Information Technology": 24.04,
+        "Utilities & Power": 5.54,
+        "Consumer Staples": 7.19,
+        "Consumer Discretionary": 8.35,
+        "Energy": 4.49,
+        "Industrials": 6.76,
+        "Healthcare": 4.15,
+        "Real Estate": 3.54,
+        "Cash & Cash Equivalents": 11.92,
+        "Other / Diversified": 5.31
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.25
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 4.96
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 4.9
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.78
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.89
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.02
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 7.02
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.48
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.91
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.5
+        }
+      ]
+    },
+    {
+      "month_year": "2023-07",
+      "as_of_date": "Last Day of 2023-07",
+      "nav": 69.1564,
+      "aum_crores": 60891.7,
+      "portfolio_turnover_ratio_ex_arbitrage": 13.79,
+      "portfolio_turnover_ratio_incl_arbitrage": 25.29,
+      "asset_allocation": {
+        "domestic_equity_pct": 60.88,
+        "foreign_equity_pct": 22.6,
+        "reits_invits_pct": 3.53,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 5.85,
+        "money_market_pct": 4.55,
+        "net_current_assets_pct": 2.59,
+        "dry_powder_total_pct": 12.99
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.55,
+        "Information Technology": 24.14,
+        "Utilities & Power": 5.46,
+        "Consumer Staples": 7.35,
+        "Consumer Discretionary": 8.58,
+        "Energy": 4.72,
+        "Industrials": 7.11,
+        "Healthcare": 4.2,
+        "Real Estate": 3.53,
+        "Cash & Cash Equivalents": 12.99,
+        "Other / Diversified": 3.37
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.2
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.06
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.03
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.75
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 4.94
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.05
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.94
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.41
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.9
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.59
+        }
+      ]
+    },
+    {
+      "month_year": "2023-08",
+      "as_of_date": "Last Day of 2023-08",
+      "nav": 69.5194,
+      "aum_crores": 63138.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 14.63,
+      "portfolio_turnover_ratio_incl_arbitrage": 26.13,
+      "asset_allocation": {
+        "domestic_equity_pct": 60.16,
+        "foreign_equity_pct": 22.46,
+        "reits_invits_pct": 3.52,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 6.24,
+        "money_market_pct": 4.85,
+        "net_current_assets_pct": 2.77,
+        "dry_powder_total_pct": 13.86
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.44,
+        "Information Technology": 24.19,
+        "Utilities & Power": 5.38,
+        "Consumer Staples": 7.54,
+        "Consumer Discretionary": 8.78,
+        "Energy": 4.96,
+        "Industrials": 7.37,
+        "Healthcare": 4.27,
+        "Real Estate": 3.52,
+        "Cash & Cash Equivalents": 13.86,
+        "Other / Diversified": 1.69
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.17
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.15
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.16
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.71
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.0
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.11
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.86
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.34
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.9
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.68
+        }
+      ]
+    },
+    {
+      "month_year": "2023-09",
+      "as_of_date": "Last Day of 2023-09",
+      "nav": 69.5856,
+      "aum_crores": 65450.0,
+      "portfolio_turnover_ratio_ex_arbitrage": 15.57,
+      "portfolio_turnover_ratio_incl_arbitrage": 28.27,
+      "asset_allocation": {
+        "domestic_equity_pct": 59.72,
+        "foreign_equity_pct": 22.32,
+        "reits_invits_pct": 3.53,
+        "arbitrage_pct": 1.15,
+        "treps_reverse_repo_pct": 6.49,
+        "money_market_pct": 5.05,
+        "net_current_assets_pct": 2.89,
+        "dry_powder_total_pct": 14.43
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.38,
+        "Information Technology": 24.17,
+        "Utilities & Power": 5.31,
+        "Consumer Staples": 7.75,
+        "Consumer Discretionary": 8.95,
+        "Energy": 5.2,
+        "Industrials": 7.53,
+        "Healthcare": 4.35,
+        "Real Estate": 3.53,
+        "Cash & Cash Equivalents": 14.43,
+        "Other / Diversified": 0.4
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.15
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.23
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.3
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.68
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.07
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.18
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.78
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.27
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.9
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.78
+        }
+      ]
+    },
+    {
+      "month_year": "2023-10",
+      "as_of_date": "Last Day of 2023-10",
+      "nav": 69.4487,
+      "aum_crores": 67813.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 16.55,
+      "portfolio_turnover_ratio_incl_arbitrage": 31.17,
+      "asset_allocation": {
+        "domestic_equity_pct": 59.62,
+        "foreign_equity_pct": 22.16,
+        "reits_invits_pct": 3.56,
+        "arbitrage_pct": 1.39,
+        "treps_reverse_repo_pct": 6.6,
+        "money_market_pct": 5.13,
+        "net_current_assets_pct": 2.93,
+        "dry_powder_total_pct": 14.66
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 18.37,
+        "Information Technology": 24.09,
+        "Utilities & Power": 5.23,
+        "Consumer Staples": 7.97,
+        "Consumer Discretionary": 9.08,
+        "Energy": 5.42,
+        "Industrials": 7.57,
+        "Healthcare": 4.43,
+        "Real Estate": 3.56,
+        "Cash & Cash Equivalents": 14.66,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.15
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.3
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.42
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.64
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.14
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.27
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.71
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.2
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.91
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.87
+        }
+      ]
+    },
+    {
+      "month_year": "2023-11",
+      "as_of_date": "Last Day of 2023-11",
+      "nav": 69.2343,
+      "aum_crores": 70215.5,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.48,
+      "portfolio_turnover_ratio_incl_arbitrage": 34.26,
+      "asset_allocation": {
+        "domestic_equity_pct": 59.84,
+        "foreign_equity_pct": 21.98,
+        "reits_invits_pct": 3.63,
+        "arbitrage_pct": 1.66,
+        "treps_reverse_repo_pct": 6.55,
+        "money_market_pct": 5.09,
+        "net_current_assets_pct": 2.91,
+        "dry_powder_total_pct": 14.55
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 18.43,
+        "Information Technology": 23.93,
+        "Utilities & Power": 5.16,
+        "Consumer Staples": 8.2,
+        "Consumer Discretionary": 9.15,
+        "Energy": 5.61,
+        "Industrials": 7.49,
+        "Healthcare": 4.52,
+        "Real Estate": 3.63,
+        "Cash & Cash Equivalents": 14.55,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.17
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.36
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.52
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.61
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.21
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.37
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.63
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.13
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.93
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.94
+        }
+      ]
+    },
+    {
+      "month_year": "2023-12",
+      "as_of_date": "Last Day of 2023-12",
+      "nav": 69.0804,
+      "aum_crores": 72638.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.3,
+      "portfolio_turnover_ratio_incl_arbitrage": 37.48,
+      "asset_allocation": {
+        "domestic_equity_pct": 60.38,
+        "foreign_equity_pct": 21.77,
+        "reits_invits_pct": 3.73,
+        "arbitrage_pct": 1.96,
+        "treps_reverse_repo_pct": 6.35,
+        "money_market_pct": 4.94,
+        "net_current_assets_pct": 2.83,
+        "dry_powder_total_pct": 14.12
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.54,
+        "Information Technology": 23.7,
+        "Utilities & Power": 5.1,
+        "Consumer Staples": 8.42,
+        "Consumer Discretionary": 9.16,
+        "Energy": 5.75,
+        "Industrials": 7.31,
+        "Healthcare": 4.6,
+        "Real Estate": 3.73,
+        "Cash & Cash Equivalents": 14.12,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.2
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.39
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.6
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.58
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.28
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.47
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.55
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 6.06
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.95
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.99
+        }
+      ]
+    },
+    {
+      "month_year": "2024-01",
+      "as_of_date": "Last Day of 2024-01",
+      "nav": 69.1156,
+      "aum_crores": 75063.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.94,
+      "portfolio_turnover_ratio_incl_arbitrage": 40.52,
+      "asset_allocation": {
+        "domestic_equity_pct": 61.18,
+        "foreign_equity_pct": 21.51,
+        "reits_invits_pct": 3.85,
+        "arbitrage_pct": 2.26,
+        "treps_reverse_repo_pct": 6.06,
+        "money_market_pct": 4.71,
+        "net_current_assets_pct": 2.69,
+        "dry_powder_total_pct": 13.46
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.72,
+        "Information Technology": 23.4,
+        "Utilities & Power": 5.05,
+        "Consumer Staples": 8.63,
+        "Consumer Discretionary": 9.12,
+        "Energy": 5.82,
+        "Industrials": 7.05,
+        "Healthcare": 4.68,
+        "Real Estate": 3.85,
+        "Cash & Cash Equivalents": 13.46,
+        "Other / Diversified": 0.22
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.24
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.41
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.64
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.56
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.35
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.57
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.47
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.99
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.98
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.02
+        }
+      ]
+    },
+    {
+      "month_year": "2024-02",
+      "as_of_date": "Last Day of 2024-02",
+      "nav": 69.4382,
+      "aum_crores": 77472.3,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.35,
+      "portfolio_turnover_ratio_incl_arbitrage": 43.17,
+      "asset_allocation": {
+        "domestic_equity_pct": 62.12,
+        "foreign_equity_pct": 21.21,
+        "reits_invits_pct": 3.99,
+        "arbitrage_pct": 2.54,
+        "treps_reverse_repo_pct": 5.71,
+        "money_market_pct": 4.44,
+        "net_current_assets_pct": 2.53,
+        "dry_powder_total_pct": 12.68
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 18.94,
+        "Information Technology": 23.04,
+        "Utilities & Power": 5.01,
+        "Consumer Staples": 8.82,
+        "Consumer Discretionary": 9.01,
+        "Energy": 5.84,
+        "Industrials": 6.76,
+        "Healthcare": 4.75,
+        "Real Estate": 3.99,
+        "Cash & Cash Equivalents": 12.68,
+        "Other / Diversified": 1.16
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.3
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.41
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.65
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.54
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.41
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.67
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.39
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.92
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.02
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.02
+        }
+      ]
+    },
+    {
+      "month_year": "2024-03",
+      "as_of_date": "Last Day of 2024-03",
+      "nav": 70.1016,
+      "aum_crores": 79847.7,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.5,
+      "portfolio_turnover_ratio_incl_arbitrage": 45.32,
+      "asset_allocation": {
+        "domestic_equity_pct": 63.09,
+        "foreign_equity_pct": 20.86,
+        "reits_invits_pct": 4.14,
+        "arbitrage_pct": 2.79,
+        "treps_reverse_repo_pct": 5.36,
+        "money_market_pct": 4.17,
+        "net_current_assets_pct": 2.38,
+        "dry_powder_total_pct": 11.91
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 19.21,
+        "Information Technology": 22.63,
+        "Utilities & Power": 4.99,
+        "Consumer Staples": 8.99,
+        "Consumer Discretionary": 8.84,
+        "Energy": 5.79,
+        "Industrials": 6.46,
+        "Healthcare": 4.81,
+        "Real Estate": 4.14,
+        "Cash & Cash Equivalents": 11.91,
+        "Other / Diversified": 2.23
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.37
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.39
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.62
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.52
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.46
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.76
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.32
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.85
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.05
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.99
+        }
+      ]
+    },
+    {
+      "month_year": "2024-04",
+      "as_of_date": "Last Day of 2024-04",
+      "nav": 71.105,
+      "aum_crores": 82174.1,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.38,
+      "portfolio_turnover_ratio_incl_arbitrage": 46.8,
+      "asset_allocation": {
+        "domestic_equity_pct": 63.99,
+        "foreign_equity_pct": 20.48,
+        "reits_invits_pct": 4.28,
+        "arbitrage_pct": 2.99,
+        "treps_reverse_repo_pct": 5.06,
+        "money_market_pct": 3.94,
+        "net_current_assets_pct": 2.25,
+        "dry_powder_total_pct": 11.25
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 19.52,
+        "Information Technology": 22.17,
+        "Utilities & Power": 4.98,
+        "Consumer Staples": 9.12,
+        "Consumer Discretionary": 8.63,
+        "Energy": 5.7,
+        "Industrials": 6.21,
+        "Healthcare": 4.85,
+        "Real Estate": 4.28,
+        "Cash & Cash Equivalents": 11.25,
+        "Other / Diversified": 3.29
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.46
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.36
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.56
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.51
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.51
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.83
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.24
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.78
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.09
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.94
+        }
+      ]
+    },
+    {
+      "month_year": "2024-05",
+      "as_of_date": "Last Day of 2024-05",
+      "nav": 72.3943,
+      "aum_crores": 84439.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.99,
+      "portfolio_turnover_ratio_incl_arbitrage": 47.53,
+      "asset_allocation": {
+        "domestic_equity_pct": 64.71,
+        "foreign_equity_pct": 20.06,
+        "reits_invits_pct": 4.4,
+        "arbitrage_pct": 3.13,
+        "treps_reverse_repo_pct": 4.87,
+        "money_market_pct": 3.79,
+        "net_current_assets_pct": 2.17,
+        "dry_powder_total_pct": 10.83
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 19.86,
+        "Information Technology": 21.67,
+        "Utilities & Power": 4.99,
+        "Consumer Staples": 9.22,
+        "Consumer Discretionary": 8.38,
+        "Energy": 5.56,
+        "Industrials": 6.04,
+        "Healthcare": 4.87,
+        "Real Estate": 4.4,
+        "Cash & Cash Equivalents": 10.83,
+        "Other / Diversified": 4.18
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.55
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.32
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.47
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.51
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.54
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.89
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.16
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.72
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.14
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.88
+        }
+      ]
+    },
+    {
+      "month_year": "2024-06",
+      "as_of_date": "Last Day of 2024-06",
+      "nav": 73.8699,
+      "aum_crores": 86634.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.37,
+      "portfolio_turnover_ratio_incl_arbitrage": 47.39,
+      "asset_allocation": {
+        "domestic_equity_pct": 65.16,
+        "foreign_equity_pct": 19.63,
+        "reits_invits_pct": 4.5,
+        "arbitrage_pct": 3.19,
+        "treps_reverse_repo_pct": 4.82,
+        "money_market_pct": 3.75,
+        "net_current_assets_pct": 2.14,
+        "dry_powder_total_pct": 10.71
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.21,
+        "Information Technology": 21.16,
+        "Utilities & Power": 5.02,
+        "Consumer Staples": 9.28,
+        "Consumer Discretionary": 8.12,
+        "Energy": 5.39,
+        "Industrials": 5.98,
+        "Healthcare": 4.88,
+        "Real Estate": 4.5,
+        "Cash & Cash Equivalents": 10.71,
+        "Other / Diversified": 4.75
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.64
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.27
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.38
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.52
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.57
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.94
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.08
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.65
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.18
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.8
+        }
+      ]
+    },
+    {
+      "month_year": "2024-07",
+      "as_of_date": "Last Day of 2024-07",
+      "nav": 75.4031,
+      "aum_crores": 88755.0,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.57,
+      "portfolio_turnover_ratio_incl_arbitrage": 46.59,
+      "asset_allocation": {
+        "domestic_equity_pct": 65.32,
+        "foreign_equity_pct": 19.19,
+        "reits_invits_pct": 4.56,
+        "arbitrage_pct": 3.19,
+        "treps_reverse_repo_pct": 4.92,
+        "money_market_pct": 3.83,
+        "net_current_assets_pct": 2.18,
+        "dry_powder_total_pct": 10.93
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.57,
+        "Information Technology": 20.64,
+        "Utilities & Power": 5.06,
+        "Consumer Staples": 9.31,
+        "Consumer Discretionary": 7.84,
+        "Energy": 5.22,
+        "Industrials": 6.04,
+        "Healthcare": 4.86,
+        "Real Estate": 4.56,
+        "Cash & Cash Equivalents": 10.93,
+        "Other / Diversified": 4.97
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.73
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.22
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.27
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.53
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.58
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.96
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 6.01
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.58
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.23
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.72
+        }
+      ]
+    },
+    {
+      "month_year": "2024-08",
+      "as_of_date": "Last Day of 2024-08",
+      "nav": 76.8558,
+      "aum_crores": 90802.0,
+      "portfolio_turnover_ratio_ex_arbitrage": 16.64,
+      "portfolio_turnover_ratio_incl_arbitrage": 45.02,
+      "asset_allocation": {
+        "domestic_equity_pct": 65.17,
+        "foreign_equity_pct": 18.76,
+        "reits_invits_pct": 4.6,
+        "arbitrage_pct": 3.11,
+        "treps_reverse_repo_pct": 5.16,
+        "money_market_pct": 4.01,
+        "net_current_assets_pct": 2.3,
+        "dry_powder_total_pct": 11.47
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.92,
+        "Information Technology": 20.13,
+        "Utilities & Power": 5.12,
+        "Consumer Staples": 9.29,
+        "Consumer Discretionary": 7.58,
+        "Energy": 5.05,
+        "Industrials": 6.22,
+        "Healthcare": 4.83,
+        "Real Estate": 4.6,
+        "Cash & Cash Equivalents": 11.47,
+        "Other / Diversified": 4.79
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.83
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.17
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.18
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.54
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.58
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.97
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.93
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.51
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.27
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.64
+        }
+      ]
+    },
+    {
+      "month_year": "2024-09",
+      "as_of_date": "Last Day of 2024-09",
+      "nav": 78.1029,
+      "aum_crores": 92780.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 15.67,
+      "portfolio_turnover_ratio_incl_arbitrage": 42.85,
+      "asset_allocation": {
+        "domestic_equity_pct": 64.74,
+        "foreign_equity_pct": 18.35,
+        "reits_invits_pct": 4.61,
+        "arbitrage_pct": 2.96,
+        "treps_reverse_repo_pct": 5.54,
+        "money_market_pct": 4.3,
+        "net_current_assets_pct": 2.46,
+        "dry_powder_total_pct": 12.3
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 21.26,
+        "Information Technology": 19.64,
+        "Utilities & Power": 5.2,
+        "Consumer Staples": 9.23,
+        "Consumer Discretionary": 7.33,
+        "Energy": 4.92,
+        "Industrials": 6.5,
+        "Healthcare": 4.77,
+        "Real Estate": 4.61,
+        "Cash & Cash Equivalents": 12.3,
+        "Other / Diversified": 4.24
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.92
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.13
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.1
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.57
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.56
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.96
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.85
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.44
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.31
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.58
+        }
+      ]
+    },
+    {
+      "month_year": "2024-10",
+      "as_of_date": "Last Day of 2024-10",
+      "nav": 79.0515,
+      "aum_crores": 94698.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 14.72,
+      "portfolio_turnover_ratio_incl_arbitrage": 40.22,
+      "asset_allocation": {
+        "domestic_equity_pct": 64.12,
+        "foreign_equity_pct": 17.98,
+        "reits_invits_pct": 4.6,
+        "arbitrage_pct": 2.75,
+        "treps_reverse_repo_pct": 5.99,
+        "money_market_pct": 4.66,
+        "net_current_assets_pct": 2.65,
+        "dry_powder_total_pct": 13.3
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 21.56,
+        "Information Technology": 19.18,
+        "Utilities & Power": 5.3,
+        "Consumer Staples": 9.14,
+        "Consumer Discretionary": 7.13,
+        "Energy": 4.83,
+        "Industrials": 6.85,
+        "Healthcare": 4.7,
+        "Real Estate": 4.6,
+        "Cash & Cash Equivalents": 13.3,
+        "Other / Diversified": 3.41
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.0
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.1
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.04
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.6
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.54
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.94
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.77
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.37
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.35
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.53
+        }
+      ]
+    },
+    {
+      "month_year": "2024-11",
+      "as_of_date": "Last Day of 2024-11",
+      "nav": 79.6561,
+      "aum_crores": 96570.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 13.87,
+      "portfolio_turnover_ratio_incl_arbitrage": 37.29,
+      "asset_allocation": {
+        "domestic_equity_pct": 63.4,
+        "foreign_equity_pct": 17.64,
+        "reits_invits_pct": 4.59,
+        "arbitrage_pct": 2.49,
+        "treps_reverse_repo_pct": 6.47,
+        "money_market_pct": 5.03,
+        "net_current_assets_pct": 2.87,
+        "dry_powder_total_pct": 14.37
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 21.83,
+        "Information Technology": 18.77,
+        "Utilities & Power": 5.41,
+        "Consumer Staples": 9.02,
+        "Consumer Discretionary": 6.97,
+        "Energy": 4.79,
+        "Industrials": 7.24,
+        "Healthcare": 4.62,
+        "Real Estate": 4.59,
+        "Cash & Cash Equivalents": 14.37,
+        "Other / Diversified": 2.39
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.07
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.08
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.02
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.63
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.51
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.9
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.69
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.3
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.39
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.51
+        }
+      ]
+    },
+    {
+      "month_year": "2024-12",
+      "as_of_date": "Last Day of 2024-12",
+      "nav": 79.9253,
+      "aum_crores": 98412.1,
+      "portfolio_turnover_ratio_ex_arbitrage": 13.18,
+      "portfolio_turnover_ratio_incl_arbitrage": 34.36,
+      "asset_allocation": {
+        "domestic_equity_pct": 62.7,
+        "foreign_equity_pct": 17.34,
+        "reits_invits_pct": 4.59,
+        "arbitrage_pct": 2.21,
+        "treps_reverse_repo_pct": 6.92,
+        "money_market_pct": 5.38,
+        "net_current_assets_pct": 3.07,
+        "dry_powder_total_pct": 15.37
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 22.04,
+        "Information Technology": 18.42,
+        "Utilities & Power": 5.53,
+        "Consumer Staples": 8.88,
+        "Consumer Discretionary": 6.87,
+        "Energy": 4.82,
+        "Industrials": 7.63,
+        "Healthcare": 4.52,
+        "Real Estate": 4.59,
+        "Cash & Cash Equivalents": 15.37,
+        "Other / Diversified": 1.33
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.12
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.08
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.03
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.68
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.47
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.86
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.62
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.23
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.42
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.52
+        }
+      ]
+    },
+    {
+      "month_year": "2025-01",
+      "as_of_date": "Last Day of 2025-01",
+      "nav": 79.9208,
+      "aum_crores": 100240.3,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.72,
+      "portfolio_turnover_ratio_incl_arbitrage": 31.5,
+      "asset_allocation": {
+        "domestic_equity_pct": 62.14,
+        "foreign_equity_pct": 17.09,
+        "reits_invits_pct": 4.6,
+        "arbitrage_pct": 1.91,
+        "treps_reverse_repo_pct": 7.28,
+        "money_market_pct": 5.66,
+        "net_current_assets_pct": 3.23,
+        "dry_powder_total_pct": 16.17
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 22.21,
+        "Information Technology": 18.14,
+        "Utilities & Power": 5.67,
+        "Consumer Staples": 8.72,
+        "Consumer Discretionary": 6.84,
+        "Energy": 4.91,
+        "Industrials": 7.97,
+        "Healthcare": 4.41,
+        "Real Estate": 4.6,
+        "Cash & Cash Equivalents": 16.17,
+        "Other / Diversified": 0.36
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.17
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.1
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.08
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.72
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.43
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.81
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.54
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.16
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.45
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.55
+        }
+      ]
+    },
+    {
+      "month_year": "2025-02",
+      "as_of_date": "Last Day of 2025-02",
+      "nav": 79.7472,
+      "aum_crores": 102074.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.51,
+      "portfolio_turnover_ratio_incl_arbitrage": 28.97,
+      "asset_allocation": {
+        "domestic_equity_pct": 61.81,
+        "foreign_equity_pct": 16.88,
+        "reits_invits_pct": 4.65,
+        "arbitrage_pct": 1.62,
+        "treps_reverse_repo_pct": 7.5,
+        "money_market_pct": 5.83,
+        "net_current_assets_pct": 3.33,
+        "dry_powder_total_pct": 16.66
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 22.31,
+        "Information Technology": 17.92,
+        "Utilities & Power": 5.82,
+        "Consumer Staples": 8.55,
+        "Consumer Discretionary": 6.86,
+        "Energy": 5.05,
+        "Industrials": 8.23,
+        "Healthcare": 4.3,
+        "Real Estate": 4.65,
+        "Cash & Cash Equivalents": 16.66,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.19
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.14
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.16
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.77
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.38
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.76
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.46
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.09
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.47
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.6
+        }
+      ]
+    },
+    {
+      "month_year": "2025-03",
+      "as_of_date": "Last Day of 2025-03",
+      "nav": 79.5363,
+      "aum_crores": 103931.9,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.57,
+      "portfolio_turnover_ratio_incl_arbitrage": 26.87,
+      "asset_allocation": {
+        "domestic_equity_pct": 61.81,
+        "foreign_equity_pct": 16.71,
+        "reits_invits_pct": 4.72,
+        "arbitrage_pct": 1.35,
+        "treps_reverse_repo_pct": 7.54,
+        "money_market_pct": 5.87,
+        "net_current_assets_pct": 3.35,
+        "dry_powder_total_pct": 16.76
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 22.36,
+        "Information Technology": 17.78,
+        "Utilities & Power": 5.97,
+        "Consumer Staples": 8.37,
+        "Consumer Discretionary": 6.94,
+        "Energy": 5.25,
+        "Industrials": 8.39,
+        "Healthcare": 4.18,
+        "Real Estate": 4.72,
+        "Cash & Cash Equivalents": 16.76,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.21
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.2
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.26
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.82
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.33
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.72
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.38
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 5.02
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.49
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.68
+        }
+      ]
+    },
+    {
+      "month_year": "2025-04",
+      "as_of_date": "Last Day of 2025-04",
+      "nav": 79.4253,
+      "aum_crores": 105830.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 12.9,
+      "portfolio_turnover_ratio_incl_arbitrage": 25.36,
+      "asset_allocation": {
+        "domestic_equity_pct": 62.17,
+        "foreign_equity_pct": 16.55,
+        "reits_invits_pct": 4.83,
+        "arbitrage_pct": 1.12,
+        "treps_reverse_repo_pct": 7.4,
+        "money_market_pct": 5.76,
+        "net_current_assets_pct": 3.29,
+        "dry_powder_total_pct": 16.45
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 22.34,
+        "Information Technology": 17.7,
+        "Utilities & Power": 6.13,
+        "Consumer Staples": 8.2,
+        "Consumer Discretionary": 7.08,
+        "Energy": 5.48,
+        "Industrials": 8.42,
+        "Healthcare": 4.07,
+        "Real Estate": 4.83,
+        "Cash & Cash Equivalents": 16.45,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.2
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.27
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.39
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.88
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.28
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.69
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.3
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.95
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.5
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.77
+        }
+      ]
+    },
+    {
+      "month_year": "2025-05",
+      "as_of_date": "Last Day of 2025-05",
+      "nav": 79.536,
+      "aum_crores": 107783.3,
+      "portfolio_turnover_ratio_ex_arbitrage": 13.47,
+      "portfolio_turnover_ratio_incl_arbitrage": 24.97,
+      "asset_allocation": {
+        "domestic_equity_pct": 62.89,
+        "foreign_equity_pct": 16.42,
+        "reits_invits_pct": 4.96,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 7.08,
+        "money_market_pct": 5.51,
+        "net_current_assets_pct": 3.14,
+        "dry_powder_total_pct": 15.73
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 22.27,
+        "Information Technology": 17.7,
+        "Utilities & Power": 6.29,
+        "Consumer Staples": 8.05,
+        "Consumer Discretionary": 7.26,
+        "Energy": 5.72,
+        "Industrials": 8.34,
+        "Healthcare": 3.97,
+        "Real Estate": 4.96,
+        "Cash & Cash Equivalents": 15.73,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.18
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.35
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.53
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.93
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.24
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.68
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.23
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.88
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.5
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.87
+        }
+      ]
+    },
+    {
+      "month_year": "2025-06",
+      "as_of_date": "Last Day of 2025-06",
+      "nav": 79.955,
+      "aum_crores": 109802.1,
+      "portfolio_turnover_ratio_ex_arbitrage": 14.24,
+      "portfolio_turnover_ratio_incl_arbitrage": 25.74,
+      "asset_allocation": {
+        "domestic_equity_pct": 63.97,
+        "foreign_equity_pct": 16.27,
+        "reits_invits_pct": 5.1,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 6.6,
+        "money_market_pct": 5.13,
+        "net_current_assets_pct": 2.93,
+        "dry_powder_total_pct": 14.66
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 22.15,
+        "Information Technology": 17.75,
+        "Utilities & Power": 6.45,
+        "Consumer Staples": 7.91,
+        "Consumer Discretionary": 7.46,
+        "Energy": 5.96,
+        "Industrials": 8.15,
+        "Healthcare": 3.88,
+        "Real Estate": 5.1,
+        "Cash & Cash Equivalents": 14.66,
+        "Other / Diversified": 0.53
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.15
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.45
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.66
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 4.99
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.21
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.68
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.15
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.81
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.5
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.96
+        }
+      ]
+    },
+    {
+      "month_year": "2025-07",
+      "as_of_date": "Last Day of 2025-07",
+      "nav": 80.7202,
+      "aum_crores": 111893.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 15.15,
+      "portfolio_turnover_ratio_incl_arbitrage": 26.65,
+      "asset_allocation": {
+        "domestic_equity_pct": 65.28,
+        "foreign_equity_pct": 16.12,
+        "reits_invits_pct": 5.25,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 6.01,
+        "money_market_pct": 4.67,
+        "net_current_assets_pct": 2.67,
+        "dry_powder_total_pct": 13.35
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 21.99,
+        "Information Technology": 17.86,
+        "Utilities & Power": 6.61,
+        "Consumer Staples": 7.81,
+        "Consumer Discretionary": 7.69,
+        "Energy": 6.18,
+        "Industrials": 7.89,
+        "Healthcare": 3.8,
+        "Real Estate": 5.25,
+        "Cash & Cash Equivalents": 13.35,
+        "Other / Diversified": 1.57
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.11
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.55
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.78
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.04
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.18
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.69
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 5.07
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.74
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.49
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.05
+        }
+      ]
+    },
+    {
+      "month_year": "2025-08",
+      "as_of_date": "Last Day of 2025-08",
+      "nav": 81.8149,
+      "aum_crores": 114059.0,
+      "portfolio_turnover_ratio_ex_arbitrage": 16.12,
+      "portfolio_turnover_ratio_incl_arbitrage": 27.62,
+      "asset_allocation": {
+        "domestic_equity_pct": 66.75,
+        "foreign_equity_pct": 15.94,
+        "reits_invits_pct": 5.38,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 5.37,
+        "money_market_pct": 4.18,
+        "net_current_assets_pct": 2.38,
+        "dry_powder_total_pct": 11.93
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 21.79,
+        "Information Technology": 18.01,
+        "Utilities & Power": 6.77,
+        "Consumer Staples": 7.73,
+        "Consumer Discretionary": 7.91,
+        "Energy": 6.36,
+        "Industrials": 7.59,
+        "Healthcare": 3.73,
+        "Real Estate": 5.38,
+        "Cash & Cash Equivalents": 11.93,
+        "Other / Diversified": 2.8
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 8.05
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.64
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.88
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.09
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.16
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.73
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.99
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.67
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.47
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.12
+        }
+      ]
+    },
+    {
+      "month_year": "2025-09",
+      "as_of_date": "Last Day of 2025-09",
+      "nav": 83.1706,
+      "aum_crores": 116296.9,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.08,
+      "portfolio_turnover_ratio_incl_arbitrage": 28.58,
+      "asset_allocation": {
+        "domestic_equity_pct": 68.25,
+        "foreign_equity_pct": 15.72,
+        "reits_invits_pct": 5.5,
+        "arbitrage_pct": 1.0,
+        "treps_reverse_repo_pct": 4.74,
+        "money_market_pct": 3.69,
+        "net_current_assets_pct": 2.1,
+        "dry_powder_total_pct": 10.53
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 21.56,
+        "Information Technology": 18.19,
+        "Utilities & Power": 6.91,
+        "Consumer Staples": 7.69,
+        "Consumer Discretionary": 8.11,
+        "Energy": 6.5,
+        "Industrials": 7.3,
+        "Healthcare": 3.69,
+        "Real Estate": 5.5,
+        "Cash & Cash Equivalents": 10.53,
+        "Other / Diversified": 4.02
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.99
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.74
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.96
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.14
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.15
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.78
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.91
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.6
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.44
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.17
+        }
+      ]
+    },
+    {
+      "month_year": "2025-10",
+      "as_of_date": "Last Day of 2025-10",
+      "nav": 84.6771,
+      "aum_crores": 118600.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.96,
+      "portfolio_turnover_ratio_incl_arbitrage": 30.5,
+      "asset_allocation": {
+        "domestic_equity_pct": 69.64,
+        "foreign_equity_pct": 15.46,
+        "reits_invits_pct": 5.59,
+        "arbitrage_pct": 1.13,
+        "treps_reverse_repo_pct": 4.19,
+        "money_market_pct": 3.26,
+        "net_current_assets_pct": 1.86,
+        "dry_powder_total_pct": 9.31
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 21.33,
+        "Information Technology": 18.39,
+        "Utilities & Power": 7.05,
+        "Consumer Staples": 7.7,
+        "Consumer Discretionary": 8.29,
+        "Energy": 6.57,
+        "Industrials": 7.05,
+        "Healthcare": 3.66,
+        "Real Estate": 5.59,
+        "Cash & Cash Equivalents": 9.31,
+        "Other / Diversified": 5.06
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.93
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.82
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 6.0
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.19
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.16
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.86
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.84
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.53
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.42
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.2
+        }
+      ]
+    },
+    {
+      "month_year": "2025-11",
+      "as_of_date": "Last Day of 2025-11",
+      "nav": 86.2009,
+      "aum_crores": 120957.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.68,
+      "portfolio_turnover_ratio_incl_arbitrage": 33.06,
+      "asset_allocation": {
+        "domestic_equity_pct": 70.82,
+        "foreign_equity_pct": 15.15,
+        "reits_invits_pct": 5.64,
+        "arbitrage_pct": 1.36,
+        "treps_reverse_repo_pct": 3.78,
+        "money_market_pct": 2.94,
+        "net_current_assets_pct": 1.67,
+        "dry_powder_total_pct": 8.39
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 21.09,
+        "Information Technology": 18.58,
+        "Utilities & Power": 7.17,
+        "Consumer Staples": 7.74,
+        "Consumer Discretionary": 8.42,
+        "Energy": 6.58,
+        "Industrials": 6.89,
+        "Healthcare": 3.66,
+        "Real Estate": 5.64,
+        "Cash & Cash Equivalents": 8.39,
+        "Other / Diversified": 5.84
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.86
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.89
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 6.0
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.23
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.17
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 4.94
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.76
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.46
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.38
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.2
+        }
+      ]
+    },
+    {
+      "month_year": "2025-12",
+      "as_of_date": "Last Day of 2025-12",
+      "nav": 87.6054,
+      "aum_crores": 123355.5,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.2,
+      "portfolio_turnover_ratio_incl_arbitrage": 35.74,
+      "asset_allocation": {
+        "domestic_equity_pct": 71.53,
+        "foreign_equity_pct": 14.8,
+        "reits_invits_pct": 5.67,
+        "arbitrage_pct": 1.63,
+        "treps_reverse_repo_pct": 3.6,
+        "money_market_pct": 2.8,
+        "net_current_assets_pct": 1.6,
+        "dry_powder_total_pct": 8.0
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 20.86,
+        "Information Technology": 18.77,
+        "Utilities & Power": 7.28,
+        "Consumer Staples": 7.82,
+        "Consumer Discretionary": 8.5,
+        "Energy": 6.54,
+        "Industrials": 6.83,
+        "Healthcare": 3.67,
+        "Real Estate": 5.67,
+        "Cash & Cash Equivalents": 8.0,
+        "Other / Diversified": 6.06
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.8
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.95
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.97
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.26
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.2
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.04
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.68
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.39
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.34
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.17
+        }
+      ]
+    },
+    {
+      "month_year": "2026-01",
+      "as_of_date": "Last Day of 2026-01",
+      "nav": 88.7731,
+      "aum_crores": 125776.3,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.47,
+      "portfolio_turnover_ratio_incl_arbitrage": 38.33,
+      "asset_allocation": {
+        "domestic_equity_pct": 71.91,
+        "foreign_equity_pct": 14.42,
+        "reits_invits_pct": 5.67,
+        "arbitrage_pct": 1.92,
+        "treps_reverse_repo_pct": 3.6,
+        "money_market_pct": 2.8,
+        "net_current_assets_pct": 1.6,
+        "dry_powder_total_pct": 8.0
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 20.65,
+        "Information Technology": 18.93,
+        "Utilities & Power": 7.37,
+        "Consumer Staples": 7.93,
+        "Consumer Discretionary": 8.53,
+        "Energy": 6.43,
+        "Industrials": 6.9,
+        "Healthcare": 3.7,
+        "Real Estate": 5.67,
+        "Cash & Cash Equivalents": 8.0,
+        "Other / Diversified": 5.89
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.75
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.99
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.91
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.29
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.24
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.14
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.6
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.33
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.3
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.12
+        }
+      ]
+    },
+    {
+      "month_year": "2026-02",
+      "as_of_date": "Last Day of 2026-02",
+      "nav": 89.6236,
+      "aum_crores": 128202.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.46,
+      "portfolio_turnover_ratio_incl_arbitrage": 40.72,
+      "asset_allocation": {
+        "domestic_equity_pct": 72.28,
+        "foreign_equity_pct": 14.0,
+        "reits_invits_pct": 5.66,
+        "arbitrage_pct": 2.22,
+        "treps_reverse_repo_pct": 3.63,
+        "money_market_pct": 2.82,
+        "net_current_assets_pct": 1.61,
+        "dry_powder_total_pct": 8.06
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 20.48,
+        "Information Technology": 19.05,
+        "Utilities & Power": 7.44,
+        "Consumer Staples": 8.08,
+        "Consumer Discretionary": 8.49,
+        "Energy": 6.29,
+        "Industrials": 7.08,
+        "Healthcare": 3.75,
+        "Real Estate": 5.66,
+        "Cash & Cash Equivalents": 8.06,
+        "Other / Diversified": 5.62
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.7
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 6.01
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.82
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.31
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.29
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.24
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.52
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.26
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.26
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 4.05
+        }
+      ]
+    },
+    {
+      "month_year": "2026-03",
+      "as_of_date": "Last Day of 2026-03",
+      "nav": 90.1269,
+      "aum_crores": 130614.4,
+      "portfolio_turnover_ratio_ex_arbitrage": 19.19,
+      "portfolio_turnover_ratio_incl_arbitrage": 42.69,
+      "asset_allocation": {
+        "domestic_equity_pct": 72.01,
+        "foreign_equity_pct": 13.57,
+        "reits_invits_pct": 5.65,
+        "arbitrage_pct": 2.5,
+        "treps_reverse_repo_pct": 3.95,
+        "money_market_pct": 3.07,
+        "net_current_assets_pct": 1.75,
+        "dry_powder_total_pct": 8.77
+      },
+      "capital_deployment_regime": "AGGRESSIVE_CAPITAL_DEPLOYED",
+      "sectors": {
+        "Financial Services": 20.34,
+        "Information Technology": 19.12,
+        "Utilities & Power": 7.5,
+        "Consumer Staples": 8.26,
+        "Consumer Discretionary": 8.39,
+        "Energy": 6.13,
+        "Industrials": 7.36,
+        "Healthcare": 3.81,
+        "Real Estate": 5.65,
+        "Cash & Cash Equivalents": 8.77,
+        "Other / Diversified": 4.67
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.66
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 6.01
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.72
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.33
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.35
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.34
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.45
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.19
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.22
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.97
+        }
+      ]
+    },
+    {
+      "month_year": "2026-04",
+      "as_of_date": "Last Day of 2026-04",
+      "nav": 90.3076,
+      "aum_crores": 132995.2,
+      "portfolio_turnover_ratio_ex_arbitrage": 18.67,
+      "portfolio_turnover_ratio_incl_arbitrage": 44.25,
+      "asset_allocation": {
+        "domestic_equity_pct": 71.45,
+        "foreign_equity_pct": 13.13,
+        "reits_invits_pct": 5.65,
+        "arbitrage_pct": 2.76,
+        "treps_reverse_repo_pct": 4.4,
+        "money_market_pct": 3.42,
+        "net_current_assets_pct": 1.95,
+        "dry_powder_total_pct": 9.77
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.26,
+        "Information Technology": 19.13,
+        "Utilities & Power": 7.54,
+        "Consumer Staples": 8.46,
+        "Consumer Discretionary": 8.23,
+        "Energy": 5.95,
+        "Industrials": 7.72,
+        "Healthcare": 3.89,
+        "Real Estate": 5.65,
+        "Cash & Cash Equivalents": 9.77,
+        "Other / Diversified": 3.4
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.64
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.99
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.62
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.34
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.41
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.43
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.37
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.12
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.17
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.89
+        }
+      ]
+    },
+    {
+      "month_year": "2026-05",
+      "as_of_date": "Last Day of 2026-05",
+      "nav": 90.2413,
+      "aum_crores": 135328.9,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.94,
+      "portfolio_turnover_ratio_incl_arbitrage": 45.12,
+      "asset_allocation": {
+        "domestic_equity_pct": 70.68,
+        "foreign_equity_pct": 12.7,
+        "reits_invits_pct": 5.68,
+        "arbitrage_pct": 2.96,
+        "treps_reverse_repo_pct": 4.92,
+        "money_market_pct": 3.83,
+        "net_current_assets_pct": 2.19,
+        "dry_powder_total_pct": 10.94
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.23,
+        "Information Technology": 19.07,
+        "Utilities & Power": 7.56,
+        "Consumer Staples": 8.68,
+        "Consumer Discretionary": 8.02,
+        "Energy": 5.79,
+        "Industrials": 8.11,
+        "Healthcare": 3.97,
+        "Real Estate": 5.68,
+        "Cash & Cash Equivalents": 10.94,
+        "Other / Diversified": 1.95
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.63
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.96
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.53
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.34
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.48
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.51
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.29
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 4.05
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.13
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.82
+        }
+      ]
+    },
+    {
+      "month_year": "2026-06",
+      "as_of_date": "Last Day of 2026-06",
+      "nav": 90.0426,
+      "aum_crores": 137602.7,
+      "portfolio_turnover_ratio_ex_arbitrage": 17.06,
+      "portfolio_turnover_ratio_incl_arbitrage": 45.44,
+      "asset_allocation": {
+        "domestic_equity_pct": 69.82,
+        "foreign_equity_pct": 12.3,
+        "reits_invits_pct": 5.73,
+        "arbitrage_pct": 3.11,
+        "treps_reverse_repo_pct": 5.47,
+        "money_market_pct": 4.25,
+        "net_current_assets_pct": 2.43,
+        "dry_powder_total_pct": 12.15
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.26,
+        "Information Technology": 18.94,
+        "Utilities & Power": 7.57,
+        "Consumer Staples": 8.9,
+        "Consumer Discretionary": 7.78,
+        "Energy": 5.66,
+        "Industrials": 8.5,
+        "Healthcare": 4.06,
+        "Real Estate": 5.73,
+        "Cash & Cash Equivalents": 12.15,
+        "Other / Diversified": 0.45
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.64
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.92
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.45
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.34
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.55
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.57
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.21
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 3.98
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.08
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.75
+        }
+      ]
+    },
+    {
+      "month_year": "2026-07",
+      "as_of_date": "Last Day of 2026-07",
+      "nav": 89.8469,
+      "aum_crores": 139807.4,
+      "portfolio_turnover_ratio_ex_arbitrage": 16.1,
+      "portfolio_turnover_ratio_incl_arbitrage": 45.12,
+      "asset_allocation": {
+        "domestic_equity_pct": 69.01,
+        "foreign_equity_pct": 11.92,
+        "reits_invits_pct": 5.81,
+        "arbitrage_pct": 3.19,
+        "treps_reverse_repo_pct": 5.97,
+        "money_market_pct": 4.64,
+        "net_current_assets_pct": 2.65,
+        "dry_powder_total_pct": 13.26
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.35,
+        "Information Technology": 18.75,
+        "Utilities & Power": 7.56,
+        "Consumer Staples": 9.13,
+        "Consumer Discretionary": 7.51,
+        "Energy": 5.57,
+        "Industrials": 8.84,
+        "Healthcare": 4.14,
+        "Real Estate": 5.81,
+        "Cash & Cash Equivalents": 13.26,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.66
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.87
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.39
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.33
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.63
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.62
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.13
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 3.91
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.04
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.71
+        }
+      ]
+    },
+    {
+      "month_year": "2026-08",
+      "as_of_date": "Last Day of 2026-08",
+      "nav": 89.7893,
+      "aum_crores": 141938.1,
+      "portfolio_turnover_ratio_ex_arbitrage": 15.13,
+      "portfolio_turnover_ratio_incl_arbitrage": 44.15,
+      "asset_allocation": {
+        "domestic_equity_pct": 68.35,
+        "foreign_equity_pct": 11.58,
+        "reits_invits_pct": 5.93,
+        "arbitrage_pct": 3.19,
+        "treps_reverse_repo_pct": 6.36,
+        "money_market_pct": 4.95,
+        "net_current_assets_pct": 2.83,
+        "dry_powder_total_pct": 14.14
+      },
+      "capital_deployment_regime": "NEUTRAL_BALANCED",
+      "sectors": {
+        "Financial Services": 20.5,
+        "Information Technology": 18.48,
+        "Utilities & Power": 7.53,
+        "Consumer Staples": 9.34,
+        "Consumer Discretionary": 7.24,
+        "Energy": 5.54,
+        "Industrials": 9.1,
+        "Healthcare": 4.22,
+        "Real Estate": 5.93,
+        "Cash & Cash Equivalents": 14.14,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.7
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.82
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.37
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.31
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.69
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.64
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 4.06
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 3.84
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 4.01
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.69
+        }
+      ]
+    },
+    {
+      "month_year": "2026-09",
+      "as_of_date": "Last Day of 2026-09",
+      "nav": 89.983,
+      "aum_crores": 143994.8,
+      "portfolio_turnover_ratio_ex_arbitrage": 14.22,
+      "portfolio_turnover_ratio_incl_arbitrage": 42.68,
+      "asset_allocation": {
+        "domestic_equity_pct": 67.71,
+        "foreign_equity_pct": 11.5,
+        "reits_invits_pct": 6.06,
+        "arbitrage_pct": 3.12,
+        "treps_reverse_repo_pct": 6.63,
+        "money_market_pct": 5.16,
+        "net_current_assets_pct": 2.94,
+        "dry_powder_total_pct": 14.73
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 20.71,
+        "Information Technology": 18.14,
+        "Utilities & Power": 7.49,
+        "Consumer Staples": 9.54,
+        "Consumer Discretionary": 6.97,
+        "Energy": 5.57,
+        "Industrials": 9.25,
+        "Healthcare": 4.3,
+        "Real Estate": 6.06,
+        "Cash & Cash Equivalents": 14.73,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.76
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.77
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.39
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.29
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.76
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.65
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 3.98
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 3.77
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.98
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.69
+        }
+      ]
+    },
+    {
+      "month_year": "2026-10",
+      "as_of_date": "Last Day of 2026-10",
+      "nav": 90.5016,
+      "aum_crores": 145981.6,
+      "portfolio_turnover_ratio_ex_arbitrage": 13.46,
+      "portfolio_turnover_ratio_incl_arbitrage": 40.8,
+      "asset_allocation": {
+        "domestic_equity_pct": 67.33,
+        "foreign_equity_pct": 11.5,
+        "reits_invits_pct": 6.21,
+        "arbitrage_pct": 2.98,
+        "treps_reverse_repo_pct": 6.73,
+        "money_market_pct": 5.24,
+        "net_current_assets_pct": 2.99,
+        "dry_powder_total_pct": 14.96
+      },
+      "capital_deployment_regime": "DEFENSIVE_DRY_POWDER_ACCUMULATION",
+      "sectors": {
+        "Financial Services": 20.96,
+        "Information Technology": 17.75,
+        "Utilities & Power": 7.43,
+        "Consumer Staples": 9.72,
+        "Consumer Discretionary": 6.72,
+        "Energy": 5.66,
+        "Industrials": 9.27,
+        "Healthcare": 4.36,
+        "Real Estate": 6.21,
+        "Cash & Cash Equivalents": 14.96,
+        "Other / Diversified": 0.0
+      },
+      "top_holdings": [
+        {
+          "name": "HDFC Bank Ltd",
+          "symbol": "HDFCBANK",
+          "industry": "Banks",
+          "weight": 7.82
+        },
+        {
+          "name": "Power Grid Corp of India",
+          "symbol": "POWERGRID",
+          "industry": "Power",
+          "weight": 5.73
+        },
+        {
+          "name": "ITC Ltd",
+          "symbol": "ITC",
+          "industry": "Diversified FMCG",
+          "weight": 5.43
+        },
+        {
+          "name": "Bajaj Holdings & Investment",
+          "symbol": "BAJAJHLDNG",
+          "industry": "Finance",
+          "weight": 5.26
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "symbol": "ICICIBANK",
+          "industry": "Banks",
+          "weight": 5.82
+        },
+        {
+          "name": "Coal India Ltd",
+          "symbol": "COALINDIA",
+          "industry": "Consumable Fuels",
+          "weight": 5.65
+        },
+        {
+          "name": "Alphabet Inc (Google)",
+          "symbol": "GOOGL",
+          "industry": "IT - Software",
+          "weight": 3.9
+        },
+        {
+          "name": "Microsoft Corp",
+          "symbol": "MSFT",
+          "industry": "IT - Software",
+          "weight": 3.7
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "industry": "Banks",
+          "weight": 3.95
+        },
+        {
+          "name": "HCL Technologies Ltd",
+          "symbol": "HCLTECH",
+          "industry": "IT - Software",
+          "weight": 3.73
+        }
+      ]
+    }
+  ]
+}

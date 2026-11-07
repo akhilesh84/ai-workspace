@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "amcs": {
+    "PPFAS": {
+      "fund_house": "PPFAS Mutual Fund",
+      "portal_url": "https://amc.ppfas.com/downloads/portfolio-disclosure/",
+      "factsheet_url": "https://amc.ppfas.com/downloads/factsheet/",
+      "file_type": "xlsx",
+      "scheme_prefixes": {
+        "122639": "PPFCF",
+        "148885": "PPTSF",
+        "149842": "PPCHF",
+        "151838": "PPAF",
+        "152285": "PPDAAF",
+        "152744": "PPLCF"
+      },
+      "url_regex": "/downloads/portfolio-disclosure/(\\d{4})/(PPFCF_[^\"']+\\.xlsx?)"
+    },
+    "HDFC": {
+      "fund_house": "HDFC Mutual Fund",
+      "portal_url": "https://www.hdfcfund.com/statutory-disclosure/portfolio/monthly-portfolio",
+      "factsheet_url": "https://www.hdfcfund.com/downloads/factsheets",
+      "file_type": "xlsx"
+    },
+    "SBI": {
+      "fund_house": "SBI Mutual Fund",
+      "portal_url": "https://www.sbimf.com/en-us/portfolios",
+      "factsheet_url": "https://www.sbimf.com/en-us/factsheets",
+      "file_type": "xlsx"
+    },
+    "NIPPON": {
+      "fund_house": "Nippon India Mutual Fund",
+      "portal_url": "https://mf.nipponindiaim.com/investor-services/downloads/statutory-disclosures",
+      "factsheet_url": "https://mf.nipponindiaim.com/investor-services/downloads/factsheets",
+      "file_type": "xlsx"
+    },
+    "QUANT": {
+      "fund_house": "quant Mutual Fund",
+      "portal_url": "https://quantmutual.com/statutory-disclosures",
+      "factsheet_url": "https://quantmutual.com/factsheets",
+      "file_type": "xlsx"
+    }
+  }
+}
+
